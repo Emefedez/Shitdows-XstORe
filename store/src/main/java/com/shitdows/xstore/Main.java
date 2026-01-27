@@ -41,6 +41,7 @@ public class Main {
         searchField.setForeground(Color.GRAY);
         searchField.setText(placeholder);
 
+
         //Barra de busqueda por paquete
         String placeholderPackage = "Search (full package name)...";
         searchPackage.setBounds(10, 500, 100, 40);
