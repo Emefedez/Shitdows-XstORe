@@ -76,10 +76,10 @@ public class Main {
 
         // Añadiendo el botón y datos al marco
         searchButton.setBounds(500, 28, 80, 29);
-        searchField.setBounds(10, 28, 500, 29);
+        searchField.setBounds(10, 28, 490, 29);
 
         packageButton.setBounds(500, 5, 80, 20);
-        searchPackage.setBounds(10, 5, 500, 20);
+        searchPackage.setBounds(10, 5, 490, 20);
 
         frame.add(searchField);
         frame.add(searchPackage);
