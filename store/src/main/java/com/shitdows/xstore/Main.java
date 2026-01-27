@@ -19,6 +19,8 @@ public class Main {
         frame.getContentPane().setBackground(Color.decode("#00b0b9"));
 
         JButton searchButton = new JButton(); // Creando un botón
+        JButton packageButton = new JButton(); // Creando un botón
+
         JTextField searchField = new JTextField(); // Creando un campo de búsqueda
         JTextField searchPackage = new JTextField();
 
@@ -26,6 +28,11 @@ public class Main {
         searchButton.setBounds(130, 100, 100, 40);
         searchButton.setBackground(Color.lightGray);
         searchButton.setText("Search");
+
+        //Botón para paquete
+        packageButton.setBounds(130, 100, 100, 40);
+        packageButton.setBackground(Color.GRAY);
+        packageButton.setText("Search");
 
         //Barra de busqueda por nombre
         String placeholder = "Search...";
@@ -68,17 +75,19 @@ public class Main {
         );
 
         // Añadiendo el botón y datos al marco
-        searchField.setBounds(10, 35, 170, 29);
-        searchButton.setBounds(180, 35, 80, 29);
+        searchButton.setBounds(500, 28, 80, 29);
+        searchField.setBounds(10, 28, 500, 29);
 
-        searchPackage.setBounds(10, 10, 250, 20);
+        packageButton.setBounds(500, 5, 80, 20);
+        searchPackage.setBounds(10, 5, 500, 20);
 
         frame.add(searchField);
         frame.add(searchPackage);
         frame.add(searchButton);
+        frame.add(packageButton);
 
         // Configuración del JFrame
-        frame.setSize(600, 550);
+        frame.setSize(600, 650);
         frame.setLayout(null);
         frame.setVisible(true);
     }
