@@ -5,7 +5,7 @@ import java.awt.Color;
 import javax.swing.*;
 
 public class Main {
-        private static ListPanel ListPanel;
+        private static ListPanel listPanel;
         private static JFrame frame;
 
         public static void main(String[] args) {
@@ -57,8 +57,14 @@ public class Main {
         searchPackage.setText(placeholderPackage);
 
 
-        //List Panel
-        ListPanel = new ListPanel();
+        //List Panel y campo scrolleable, aqui saldran las apps.
+        listPanel = new ListPanel();
+        listPanel.setBackground(Color.lightGray);
+
+        JScrollPane scrollPane = new JScrollPane(listPanel);
+        scrollPane.setBounds(10, 70, 570, 530); // Posición y tamaño
+        scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.getVerticalScrollBar().setBackground(Color.GRAY); 
         
         
 
@@ -99,7 +105,9 @@ public class Main {
         frame.add(searchPackage);
         frame.add(searchButton);
         frame.add(packageButton);
-        frame.add(ListPanel);
+        frame.add(scrollPane);
+
+
 
         // Configuración del JFrame
         frame.setSize(600, 650);

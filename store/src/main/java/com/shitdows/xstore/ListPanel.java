@@ -98,6 +98,22 @@ public class ListPanel extends JPanel
         return this.panels;
     }
 
+    public void clearPanels() {
+        super.removeAll();
+        panels.clear();
+        
+        // Reiniciar el panel de relleno
+        GridBagConstraints gbc = new GridBagConstraints();
+        gbc.gridx = 0;
+        gbc.gridy = 0;
+        gbc.fill = GridBagConstraints.VERTICAL;
+        gbc.weighty = 1.0;
+        add(fillerPanel, gbc);
+        
+        revalidate();
+        repaint();
+    }
+
     public static void main(String[] args)
     {
         JFrame f = new JFrame();
