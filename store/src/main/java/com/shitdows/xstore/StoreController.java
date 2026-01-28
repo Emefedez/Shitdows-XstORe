@@ -106,8 +106,8 @@ public class StoreController {
         String descText = product.getDescription();
 
         // Evitar descripciones demasiado largas
-        if (descText != null && descText.length() > 400) {
-            descText = descText.substring(0, 400) + "...";
+        if (descText != null && descText.length() > 500) {
+            descText = descText.substring(0, 500) + "...";
         }
 
         JLabel title = new JLabel("<html><font size='4'><b>" + product.getTitle() + "</b></font></html>");
@@ -119,7 +119,7 @@ public class StoreController {
         JLabel packageLabel = new JLabel(product.getMainPackageName().toString());
         JLabel pid = new JLabel("<html><b>PID:</b> <font size='2' color='gray'>" + product.getProductId() + "</font></html>");
 
-        String packageLabelClean = packageLabel.getText().replace("[", " ").replace("]", " ");
+        String packageLabelClean = packageLabel.getText().replace("[", " ").replace("]", " ").replace("{", " ").replace("}", " ");
         JLabel pkg = new JLabel("<html><b>Pkg:</b> <font size='2' color='gray'>" + packageLabelClean + "</font></html>"); //version a usar
 
 
@@ -145,7 +145,7 @@ public class StoreController {
             } catch (Exception ex) {
             }
         });
-        box.add(dlBtn, BorderLayout.EAST);
+        box.add(dlBtn, BorderLayout.SOUTH);
 
         return box;
     }
