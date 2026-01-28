@@ -135,7 +135,7 @@ public class StoreController {
         infoPanel.add(pid);
         infoPanel.add(Box.createVerticalStrut(5)); 
         infoPanel.add(desc);        
-        box.add(infoPanel, BorderLayout.CENTER);
+        box.add(infoPanel, BorderLayout.EAST);
 
         // Botón
         JButton dlBtn = new JButton("Get");
@@ -145,7 +145,7 @@ public class StoreController {
             } catch (Exception ex) {
             }
         });
-        box.add(dlBtn, BorderLayout.SOUTH);
+        box.add(dlBtn, BorderLayout.WEST);
 
         return box;
     }

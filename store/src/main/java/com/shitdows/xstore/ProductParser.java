@@ -31,6 +31,14 @@ public class ProductParser {
                 String installerType = installer.get("type").getAsString();
                 item.setInstallerType(installerType); 
                 }
+
+                 if (itemJson.has("images")) {
+                    if (itemJson.has("imageType")) {
+                        System.out.println("Images found in: " + productsArray.get(i).getAsJsonObject());
+                    }
+                
+                
+                }
                 
 
                 //si da error no se copia el item
