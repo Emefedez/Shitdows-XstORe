@@ -64,7 +64,8 @@ public class Main {
         JScrollPane scrollPane = new JScrollPane(listPanel);
         scrollPane.setBounds(10, 70, 570, 530); // Posición y tamaño
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
-        scrollPane.getVerticalScrollBar().setBackground(Color.GRAY); 
+        scrollPane.getVerticalScrollBar().setBackground(Color.GRAY);
+        scrollPane.getVerticalScrollBar().setUnitIncrement(16);
         
         
 
@@ -107,6 +108,15 @@ public class Main {
         frame.add(packageButton);
         frame.add(scrollPane);
 
+
+        //Para quye la barra de busqueda funcione
+        searchButton.addActionListener(e -> {
+            String query = searchField.getText();
+            StoreController.searchAndManageUI(query, listPanel);
+        });
+        
+        // Para que funcione al dar Enter en la caja de texto tmb
+        searchField.addActionListener(e -> searchButton.doClick());
 
 
         // Configuración del JFrame

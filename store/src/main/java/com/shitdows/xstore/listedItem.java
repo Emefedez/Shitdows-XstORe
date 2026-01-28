@@ -1,5 +1,7 @@
 package com.shitdows.xstore;
 
+import java.util.List; // Asegúrate de importar esto arriba
+
 public class listedItem {
 
 
@@ -15,7 +17,7 @@ public class listedItem {
 
     //datos de paquete
     private String productId; //mismo que el ID del instalador
-    private String packageFamilyNames;
+    private List<String> packageFamilyNames;
     private String installerType;
 
     public listedItem() { //para que listedItems no tenga datos basura, igualmente usamos gson
@@ -35,9 +37,9 @@ public class listedItem {
     public String getIconUrl() { return iconURL; }
     public String getDisplayPrice() { return displayPrice; }
     public double getAverageRating() { return averageRating; }
-    public String getInstallerId() { return productId; }
+    public String getProductId() { return productId; }
     public String getInstallerType() { return installerType; }
-    public String getMainPackageName() { return packageFamilyNames; }
+    public List<String> getMainPackageName() { return packageFamilyNames; }
     
 
 }
