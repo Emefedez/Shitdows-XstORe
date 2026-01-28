@@ -5,8 +5,11 @@ import java.awt.Color;
 import javax.swing.*;
 
 public class Main {
+        private static ListPanel ListPanel;
+        private static JFrame frame;
+
         public static void main(String[] args) {
-        JFrame frame = new JFrame("ShitdowsXstORe"); // Creando instancia de JFrame
+        frame = new JFrame("ShitdowsXstORe"); // Creando instancia de JFrame
         frame.setResizable(false);
         //Definiendo icono para el programa
         try {
@@ -28,11 +31,15 @@ public class Main {
         searchButton.setBounds(130, 100, 100, 40);
         searchButton.setBackground(Color.lightGray);
         searchButton.setText("Search");
+        searchButton.setToolTipText("Type your APPs name!!");
+
 
         //Botón para paquete
         packageButton.setBounds(130, 100, 100, 40);
         packageButton.setBackground(Color.GRAY);
-        packageButton.setText("Search");
+        packageButton.setText("↓↓↓");
+        packageButton.setForeground(Color.WHITE);
+        packageButton.setToolTipText("Download");
 
         //Barra de busqueda por nombre
         String placeholder = "Search...";
@@ -43,11 +50,17 @@ public class Main {
 
 
         //Barra de busqueda por paquete
-        String placeholderPackage = "Search (full package name)...";
+        String placeholderPackage = "Search (package ID or package name)..."; //si tiene puntos es packagename, si no es packageID
         searchPackage.setBounds(10, 500, 100, 40);
         searchPackage.setBackground(Color.GRAY);
         searchPackage.setForeground(Color.WHITE);
         searchPackage.setText(placeholderPackage);
+
+
+        //List Panel
+        ListPanel = new ListPanel();
+        
+        
 
         searchField.addKeyListener(
             new java.awt.event.KeyAdapter() {
@@ -86,6 +99,7 @@ public class Main {
         frame.add(searchPackage);
         frame.add(searchButton);
         frame.add(packageButton);
+        frame.add(ListPanel);
 
         // Configuración del JFrame
         frame.setSize(600, 650);

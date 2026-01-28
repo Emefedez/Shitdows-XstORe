@@ -1,0 +1,3490 @@
+{
+  "title": "",
+  "description": "",
+  "productsList": [
+    {
+      "productId": "9nt1r1c2hh7j",
+      "title": "ChatGPT",
+      "description": "The official ChatGPT desktop app brings you the newest model improvements from OpenAI.\n\nDo more on your PC with ChatGPT: \n\n· Instant answers—Use the [Alt + Space] keyboard shortcut for faster access to ChatGPT\n· Chat with your computer—Use Advanced Voice to chat with your computer in real-time and get hands-free advice and answers while you work.\n· Search the web—Get fast, timely answers with links to relevant web sources.\n· Collaborate on writing and code—Use canvas to work with ChatGPT on projects that require editing and revisions.\n· Stay productive—Keep ChatGPT easily accessible next to your open apps with the companion window\n· Take and share screenshots—Ask about anything on your screen\n· Upload files and photos—Summarize and analyze multiple documents \n· Get professional input—Brainstorm marketing copy or a business plan\n· Creative inspiration—Get birthday gift ideas or create a personalized greeting card with DALL•E\n\nJoin hundreds of millions of users and download ChatGPT today.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "OpenAI",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.39106.14423064005243201.a0cc2ebc-a24d-4a7e-9221-213a78435756.772e855f-e86f-4b0e-8f18-04b29ceda437",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.56677.14423064005243201.a0cc2ebc-a24d-4a7e-9221-213a78435756.7a9e5b21-a5d4-4cd2-929f-9f2e4f2914a9",
+          "height": 256.0,
+          "width": 256.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.3380.14423064005243201.a0cc2ebc-a24d-4a7e-9221-213a78435756.bcfe1f44-5cce-4a74-9f90-b1c76e81ef9d",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.18333.14423064005243201.a0cc2ebc-a24d-4a7e-9221-213a78435756.ec7fa16c-09aa-4798-8b77-8903aea91393",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.14785.14423064005243201.42399137-369b-40bb-b5be-ac2f079c41bf.b1d6d110-9d93-441f-ac20-2e04fd7dfe3c",
+          "height": 300.0,
+          "width": 300.0
+        }
+      ],
+      "averageRating": 3.7,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "OpenAI.ChatGPT-Desktop_2p2nqsd0c76g0"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9NT1R1C2HH7J"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2024-09-07T02:34:29.3342479Z",
+      "appExtCategoryNames": [
+        "AppExtension-com.microsoft.windows.copilotkeyprovider"
+      ],
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.19207.14423064005243201.9052bdfd-dc99-4d78-867b-c66a845f182c.017d5f15-6c46-4381-bd8c-46257704362f",
+          "height": 1536.0,
+          "width": 2732.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "137",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.14785.14423064005243201.42399137-369b-40bb-b5be-ac2f079c41bf.b1d6d110-9d93-441f-ac20-2e04fd7dfe3c",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.14785.14423064005243201.42399137-369b-40bb-b5be-ac2f079c41bf.b1d6d110-9d93-441f-ac20-2e04fd7dfe3c",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.39106.14423064005243201.a0cc2ebc-a24d-4a7e-9221-213a78435756.772e855f-e86f-4b0e-8f18-04b29ceda437",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chatgpt",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "award": {
+        "title": "Microsoft Store Awards 2025",
+        "description": "The Microsoft Store Awards celebrate apps and games that emphasize exceptional experiences for their users.",
+        "year": 2025.0,
+        "category": "AI category",
+        "editorialId": "Editorials/Awards_2025/Global/ChatGPT_9nt1r1c2hh7j"
+      },
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9pb487vgdc4w",
+      "title": "Gemix AI - DeepMind AI:Gemini Chatbot",
+      "description": "A new generation of AI assistant. This product has super-fast response capabilities, supports multi-modal interaction of text, images, and audio, and has super-long context processing capabilities of 1M tokens.\n\nFree trial function description:\nA.mini 2.5 Flash chat robot provides 5 free conversation trials per day.\nAfter exceeding the limit, you need to purchase a Pro account to remove the AI chat limit.\n\n\nUpgrade to Pro account Payment function description:\nProvide Pro annual, quarterly, and monthly membership cards to unlock the free trial function restrictions.\n",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Chat APP Studio",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.26457.14130607382405464.740e820b-f716-4739-9631-c4e14ca50520.d446ca50-3895-4eca-b3b1-f79f8d9aed62",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.8428.14130607382405464.740e820b-f716-4739-9631-c4e14ca50520.1dce037a-dfe1-4d75-b8f5-2e585a104db6",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.42888.14130607382405464.740e820b-f716-4739-9631-c4e14ca50520.53026cc4-2e2a-4bf7-8fdb-bab7b1cef1a4",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.43395.14130607382405464.0f29cd71-f1f1-40fb-a3e8-c31263a30453.6366e821-ee45-4462-9616-3579070c0b79",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 4.6,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "ChatAPPStudio.GogeAI-AIChatbot_pft8pkk90xwrw"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9PB487VGDC4W"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2025-03-27T13:55:21.6595108Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.9081.14130607382405464.563274c5-aa24-4093-a427-87b69d864b1e.57486744-7ad4-450a-b94b-f009e61b31c6",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "132",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.26457.14130607382405464.740e820b-f716-4739-9631-c4e14ca50520.d446ca50-3895-4eca-b3b1-f79f8d9aed62",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.43395.14130607382405464.0f29cd71-f1f1-40fb-a3e8-c31263a30453.6366e821-ee45-4462-9616-3579070c0b79",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.43395.14130607382405464.0f29cd71-f1f1-40fb-a3e8-c31263a30453.6366e821-ee45-4462-9616-3579070c0b79",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "gemix-ai-deepmind-ai%3agemini-chatbot",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p53xv3jwkbj",
+      "title": "Open Chatbot - Chat with AI",
+      "description": "developed on GPT-4\nChat AI,can provide enhanced AI chat application functionality, voice interaction, email writing, and intelligent conversation experience to meet all your needs. You can use the AI chatbot Chat AI on the win device as your assistant and enjoy a personalized experience.\n\nOur AI assistant chatbot can complete many tasks with unlimited possibilities:\n\nAsk and answer immediately\nThanks to the powerful OpenAI API and GPT-4 model, the AI chatbot Chat Robot can quickly and impressively answer any question based on existing knowledge.\nFree trial function description:\nA. GPT-4o mini AI chatbot offers 5 free trials of conversations.\nAfter exceeding the limit, you need to purchase PLUS to lift the AI chat limit.\n\nPlus payment function description:\nProvide PLUS annual, quarterly, and monthly membership cards, unlock free trial function restrictions.\nMain equity\nA. Unrestricted GPT-4o mini chats with various types of robots.\nB. Built on GPT-4 to provide you with 200-600 conversations per month.\nC. Built on DALL•E 3 to provide you Art Drawing 30-60 images/month text generated images.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Free Connected software limited",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.14773.14576638020345263.66abb4c0-359f-41f7-bcae-899e85d33554.8fc93701-4b12-4d5a-b403-9545d8bb8566",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.64266.14576638020345263.66abb4c0-359f-41f7-bcae-899e85d33554.daba7fb8-30d8-4d39-9f17-8453ff2bd592",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.18155.14576638020345263.66abb4c0-359f-41f7-bcae-899e85d33554.0aded0b8-7bd9-4691-8ab0-3317f25a836b",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.25558.14576638020345263.5ac6a092-2c2d-42c2-847c-53015b4f827c.e5c42fa9-553b-4a3e-9fff-2af4ae447a91",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 4.5,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "FreeConnectedsoftwarelimi.OPRobot_dxjddvqgzp05m"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P53XV3JWKBJ"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2024-04-04T13:56:20.8282687Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.34202.14576638020345263.66abb4c0-359f-41f7-bcae-899e85d33554.7cb9db30-2f29-4b19-b46c-9002bdb93ece",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "150",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.14773.14576638020345263.66abb4c0-359f-41f7-bcae-899e85d33554.8fc93701-4b12-4d5a-b403-9545d8bb8566",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.25558.14576638020345263.5ac6a092-2c2d-42c2-847c-53015b4f827c.e5c42fa9-553b-4a3e-9fff-2af4ae447a91",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.25558.14576638020345263.5ac6a092-2c2d-42c2-847c-53015b4f827c.e5c42fa9-553b-4a3e-9fff-2af4ae447a91",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "open-chatbot-chat-with-ai",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p3t6nlnmdqv",
+      "title": "Chat Nova - Ai Assistant",
+      "description": "Powered by OpenAI ChatGPT\n\t\tAsk me anything\n\t\t1. Flexibility: ChatGPT can play different roles, thus providing services to users in different fields with a certain degree of flexibility.\n\t\t2. Smooth communication: ChatGPT is based on the GPT-3 model and can naturally and smoothly engage in conversations with users, providing personalized answers.\n\t\t3. Strong Customizability: Different roles can be set according to user needs and scenarios, and the knowledge and experience of corresponding roles can be configured.\n\t\t4. Self learning ability: ChatGPT can learn \n\t\tfrom a large amount of input data and continuously improve its knowledge and answering ability through continuous dialogue and interaction.\n\t\tThe areas where ChatGPT can be used for role-playing are:\n\t\t1. In the field of online customer service, CHATGPT can act as a customer service representative, answering user inquiries and resolving any issues encountered.\n\t\t2. In the field of education, ChatGPT can play the role of a teacher, providing students with Q\u0026A services, guiding them in learning and thinking.\n\t\t3. In the medical field, ChatGPT can play the role of a doctor, helping patients answer health questions and providing daily health and dietary advice.\n\t\t4. In the financial field, ChatGPT can act as a financial advisor, providing corresponding financial analysis and advice based on the user\u0027s asset situation and investment preferences.\n\t\t5. In the tourism field, ChatGPT can play the role of a travel consultant, helping users with travel planning and providing various destination related information and advice.\n\t\t﻿\n\t\tFree trial description:\n\t\tTry 5 free conversations with AI chatbots.\n\t\tAfter exceeding the limit, you need to purchase PLUS membership privileges to lift the AI chat limit.\n\n\t\tPlus paid member instructions:\n\t\tRights:\n\t\tA. Unlimited chat for machines based on OpenAI ChatGPT-3.5.\n\t\tB. Based on OpenAI GPT-4.0, machine has 300-500 /month.\n\t\tC. Provide OpenAI DALL E3 Art Drawing 30-60 images/month text generated images.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Super Connected Software Limited",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.52075.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.089b1b5d-d308-4700-a433-736eb16b9fdb",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.29319.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.a3ff9bde-1410-4571-a01e-bca1edcbf65c",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.47269.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.b8d1b0c9-bb58-41b2-b4b0-879aa9e5f1bf",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.42497.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.469e69b0-3eea-4e70-8bdb-a51b09c21037",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 4.3,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "SuperConnectedSoftwareLim.ConnGPT_7ma7e60vq5g3w"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P3T6NLNMDQV"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2024-03-25T05:34:27.2206606Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.28335.14531445700280737.c13ebc17-2b4e-4a4a-8a56-3f10a901c618.21d3c96c-d521-492e-bd33-c821887c8c1e",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "184",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.52075.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.089b1b5d-d308-4700-a433-736eb16b9fdb",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.42497.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.469e69b0-3eea-4e70-8bdb-a51b09c21037",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.42497.14531445700280737.76f71450-3eb6-46ed-895a-2e8db205b53d.469e69b0-3eea-4e70-8bdb-a51b09c21037",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chat-nova-ai-assistant",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p8jczc45twq",
+      "title": "AI Chat Bot - Multiple AI chats",
+      "description": "Get instant answers, creative ideas, drafting emails, summarising texts, and so much more—powered by a wide range of advanced AI models including OpenAI\u0027s ChatGPT, Google Gemini, and Anthropic Claude.\n\nAvailable AI Models\n\n ▪️ ChatGPT (GPT-5: OpenAI\u0027s most advanced language model, ideal for generating creative content, problem-solving, and engaging conversations.\n ▪️ Claude 3 Opus: Anthropic\u0027s powerful AI model designed for nuanced and in-depth analysis.\n ▪️ Gemini 2.0 Flash: A fast and efficient AI model for real-time chatting and quick responses.\n ▪️ DeepSeek AI (coming soon)\n\nKey Features\n\n ▪️ Easily Switch Between Models: Seamlessly toggle between different AI models like ChatGPT, Claude, and Gemini to match your needs—whether it\u0027s creativity, productivity, or casual conversations.\n ▪️ Multilingual Support: Communicate in your native language\n ▪️ Chat History: Keep track of your previous chats for quick access and easy reference.\n ▪️ Free to Start: Begin using the app with no cost, offering access to essential features with the free plan.\n\nPricing\n\n ▪️ Free: Start chatting with limited access to AI models and features.\n ▪️ Pro: Unlock unlimited access to all AI models, including ChatGPT 5, Claude and Gemini \n\nDownload AI Chat Bot today and experience the future of AI-powered conversations, whether you\u0027re looking for help from ChatGPT or other cutting-edge models!",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Wuxxu",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.21403.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.221f9e01-676c-40a3-ba14-342202214a4d",
+          "height": 100.0,
+          "width": 100.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.5215.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.2fb00ebe-99ff-43d4-92b5-1211aac96386",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.60257.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.0ec7cc00-1768-4635-b706-fa05d5e73a41",
+          "height": 225.0,
+          "width": 225.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.12382.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.be2e4295-cf00-4c9e-b0c1-d5d747afd7ab",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.19642.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.c1ce2ab1-4992-4d63-b890-f93229e15374",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.57111.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.c83bc0fb-4bc4-401a-9211-27287f577cba",
+          "height": 465.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.21594.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.92be96a5-5502-42e9-b488-e257548d8a8e",
+          "height": 620.0,
+          "width": 620.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.60784.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.4d6f06a3-ac9a-442a-b3c1-77b6a045e121",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.15276.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.090831f5-0a96-4edc-a8e5-555f56d07099",
+          "height": 225.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.13104.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.6da96d69-4368-4905-8c3e-d54c6526317e",
+          "height": 300.0,
+          "width": 620.0
+        }
+      ],
+      "averageRating": 0.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "Wuxxu.AIChatBot_3scsf2wvvzy2y"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P8JCZC45TWQ"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2025-04-23T23:58:28.4039645Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "#0e0e0e",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.54543.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.244c67a8-f4c1-48b3-9b04-abd69276caeb",
+          "height": 768.0,
+          "width": 1366.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "0",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.21403.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.221f9e01-676c-40a3-ba14-342202214a4d",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.12382.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.be2e4295-cf00-4c9e-b0c1-d5d747afd7ab",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.21403.14086977209274491.139199ed-b5de-413f-a081-140e72f0b00e.221f9e01-676c-40a3-ba14-342202214a4d",
+      "iconUrlBackground": "#0e0e0e",
+      "screenshots": [],
+      "encodedTitle": "ai-chat-bot-multiple-ai-chats",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9nxk0pk5zs1b",
+      "title": "Easy Chat AI",
+      "description": "EasyChat AI: Your Ultimate AI Companion on Windows! 🤖✨\n\nExperience the future of AI conversations with EasyChat AI, a beautifully designed app that brings powerful AI assistance to your Windows desktop. Whether you need quick answers, creative inspiration, or insightful conversations, EasyChat AI is here to help you every step of the way. 🌟\n\nWhy You\u0027ll Love EasyChat AI:\n\n💬 Intelligent Conversations: Engage with an AI assistant powered by GPT-4 for natural, flowing dialogues.\n🚀 Quick Access Flyout: The Quick Chat feature hovers at the screen edge for instant AI access without opening the full app.\n📄 Clipboard Actions: Copy text and instantly Summarize, Translate, Explain, or Proofread with one click.\n🎭 Character Library: Chat with AI personalities like Albert Einstein, a Dating Coach, and more for specialized insights.\n📁 Local Chat History: Chats are saved locally, ensuring privacy and easy access to past conversations.\n🔖 Pin Conversations: Keep important chats at your fingertips by pinning them.\n🎨 Stunning Fluent Design: Modern UI with delightful animations using the latest Windows Fluent Design and Mica material.\n🌙 Dark Mode Support: Switch to dark mode for comfortable viewing in low-light environments.\n✨ Markdown Rendering: Enjoy rich, well-formatted AI responses with full markdown support.\n\nGet Started with EasyChat AI:\n\n1️⃣ Download EasyChat AI from the Microsoft Store.\n2️⃣ Launch the app and start a new conversation—no setup required!\n3️⃣ Explore the Character Library and Quick Chat features to enhance your experience.\n4️⃣ Upgrade to EasyChat Unlimited for unlimited queries and unlock all features.\n\nBoost Your Productivity and Creativity:\n\nEasyChat AI is more than a chat app; it\u0027s your personal assistant, creative partner, and knowledge navigator. With the power of LLM technology, EasyChat AI is ready to engage with you.\n\nReady to Revolutionize Your Workflow?\n\nDownload EasyChat AI now and let your conversations flow! 🚀\n\n\n________________________________________\nNote: The free version of EasyChat AI has a daily query limit. Upgrade to EasyChat Unlimited to unlock unlimited access and all features.\nEasyChat AI is a third-party application and is not affiliated with OpenAI. All trademarks are the property of their respective owners.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Tim Grabinat",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.11704.14428875438800119.91f44eeb-80b1-411b-a31e-8d35734573b6.86a50fc7-ef9c-4e42-8962-9e4cdabee6de",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.64480.14428875438800119.91f44eeb-80b1-411b-a31e-8d35734573b6.072dddd2-6efc-4f26-b8ee-05a3b489b29a",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.11006.14428875438800119.91f44eeb-80b1-411b-a31e-8d35734573b6.2b22ec78-9213-4822-8dd6-d9bf8803f955",
+          "height": 2160.0,
+          "width": 2160.0
+        }
+      ],
+      "averageRating": 2.6,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "61545TimGrabinat.EasyAI_rcb0qdgx4z9ca"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9NXK0PK5ZS1B"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2023-03-28T19:21:57.3410023Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.7797.14428875438800119.8be4b9b9-884a-46f9-9928-ae9645b37155.d2465545-51d7-4d2e-82b1-45d7d54cd90a",
+          "height": 2160.0,
+          "width": 3840.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "5",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.11704.14428875438800119.91f44eeb-80b1-411b-a31e-8d35734573b6.86a50fc7-ef9c-4e42-8962-9e4cdabee6de",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.11006.14428875438800119.91f44eeb-80b1-411b-a31e-8d35734573b6.2b22ec78-9213-4822-8dd6-d9bf8803f955",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.11006.14428875438800119.91f44eeb-80b1-411b-a31e-8d35734573b6.2b22ec78-9213-4822-8dd6-d9bf8803f955",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "easy-chat-ai",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PEGI 12",
+          "ratingId": "PEGI:12",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.60870.image.b5131961-0f3a-40f3-aad8-c81d3a4d33f2.40253061-fe57-49a5-9b0b-43fb5e133efe",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Sexual Innuendo"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PEGI 12",
+          "shortName": "PEGI 12",
+          "description": "For ages 12 and up",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p0zrk43twjp",
+      "title": "AI OpenChat - powered by GPT5 models",
+      "description": "Our AI-powered app integrates the latest GPT-4o, GPT-4o1, and Claude Sonnet 3 models to deliver a seamless, intelligent chat experience. \nRequirement: .Net Desktop Runtime should be install in order to run this app. \nDesigned for productivity, the app offers auto-summarization and information querying directly from your selected document files (support PDF, Word, Excel, PowerPoint, Text...), making it easy to access insights and summaries in seconds. \nPerfect for students, professionals, and researchers, this app enhances document comprehension and boosts productivity with cutting-edge AI capabilities.\nOur app is designed with your privacy in mind: all chat conversations are stored locally on your computer, ensuring that none of your personal data is uploaded or stored on the internet.\nWith an easy-to-use interface, this desktop app is perfect for anyone looking to integrate AI into their daily tasks without the concern of online data sharing.\nThe free version of this app includes limited access to the GPT-4.1-mini and GPT-4.0-mini models. To use the more advanced GPT-4.0 models, Calude Sonnet 3.7 model or Chat with PDF features, please upgrade to the PRO version. \n\nImportant: AI-Generated Content\n\nAll AI-generated content belongs to the respective AI service provider (OpenAI, Anthropic, Google, etc.). The ownership, usage rights, and terms of service are governed by the provider you choose to use.\n\nDisclaimer 1 : We are not responsible for any content generated by the AI models. The accuracy, appropriateness, and legality of AI-generated content are the responsibility of the AI service provider and the user.\nDisclaimer 2: This application is not affiliated with OpenAI and operates independently, providing a local instance of AI-powered conversations without external data storage.\nWe’ve added an option to report AI-generated output directly from the Privacy Policy window. To report inappropriate content, open the Privacy Policy using the button at the bottom left, scroll to the end, and click the email address to send us your report.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Ai4Docs",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.6773.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.cc2a1fdc-4415-4400-9aab-e4495810bbaf",
+          "height": 100.0,
+          "width": 100.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.393.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.18b9c034-f738-407f-82da-d10e9319dfb2",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.27880.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.053d35d2-9bac-4f40-8036-01c641a4681e",
+          "height": 225.0,
+          "width": 225.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.34983.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.bfdf7bc0-9533-48e3-b77c-c1a76389e82b",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.32378.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.a2108b68-15f7-478c-b797-b1f7005cd35a",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.39074.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.59a4d951-5cef-4e46-8f2a-5299bd73d101",
+          "height": 465.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.16927.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.ee28da4a-fe26-4424-9870-6672bc79354f",
+          "height": 620.0,
+          "width": 620.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.38259.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.e500721d-5407-44d0-aa17-dde92d105edd",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.9428.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.d64c73cc-4331-486c-a745-ec029f897384",
+          "height": 225.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.37135.14521564738498158.0cead165-ffe0-4987-878f-8484679971c1.e9672afd-877e-4020-867a-55a067b8ff07",
+          "height": 300.0,
+          "width": 620.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.41957.14521564738498158.cf211f07-4145-4deb-9b61-dd0ebf478ebf.790bc632-4bf1-47d2-b1d6-4a06bddb4723",
+          "height": 1080.0,
+          "width": 1080.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.50299.14521564738498158.cf211f07-4145-4deb-9b61-dd0ebf478ebf.6d73a3b8-f345-4379-be5e-3fafc2fbc66d",
+          "height": 300.0,
+          "width": 300.0
+        }
+      ],
+      "averageRating": 4.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "Ai4Docs.AIChatDesktop_72sh3hs0n7crg"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P0ZRK43TWJP"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2024-10-17T02:08:32.928063Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "ChatGPT-5 powered",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.32346.14521564738498158.0bbe926c-ea09-47df-ae36-2807cbabdae1.3d214579-d8ba-4c01-b385-677258e71cb6",
+          "height": 1000.0,
+          "width": 1820.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "30",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.50299.14521564738498158.cf211f07-4145-4deb-9b61-dd0ebf478ebf.6d73a3b8-f345-4379-be5e-3fafc2fbc66d",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.41957.14521564738498158.cf211f07-4145-4deb-9b61-dd0ebf478ebf.790bc632-4bf1-47d2-b1d6-4a06bddb4723",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.41957.14521564738498158.cf211f07-4145-4deb-9b61-dd0ebf478ebf.790bc632-4bf1-47d2-b1d6-4a06bddb4723",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "ai-openchat-powered-by-gpt5-models",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9pfmtgk1jvkl",
+      "title": "AI Chat+",
+      "description": "AI Chat+ is a Windows-based chat assistant built on OpenAI’s advanced ChatGPT technology, designed to help you generate answers, ideas, and intelligent solutions directly from your desktop. With a clean interface and intuitive controls, it provides a seamless way to start new conversations, switch between topics, and manage multiple chat sessions efficiently.\n\nKey features include:\n• Natural Conversations – Chat freely in everyday language with AI powered by OpenAI’s ChatGPT models.\n• Multi-Chat Management – Create, switch, or delete chat threads to stay organized and productive.\n• Feedback Tools – Like, dislike, or copy AI responses to refine results and reuse answers easily.\n• Customizable Settings – Adjust color themes and select your preferred display language for comfort.\n• Daily Free Access – Enjoy 10 free AI messages each day, with upgrade options for unlimited chats.\n\nWhether for work, study, or personal projects, AI Chat+ brings the latest in OpenAI-powered conversational intelligence to your Windows device—combining the smart capabilities of ChatGPT with everyday productivity and convenience.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "HUXSoft",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.49395.14197679614585231.e660fe1c-a731-4f44-b58d-5c7314db493b.cd75aa15-9a83-4b9e-82b6-b497f42aebba",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.40520.14197679614585231.7a4a0b7e-bfeb-48e8-b0e8-c6c60a2ce6df.e4b84d61-7ade-43d2-bf71-f89243f66a04",
+          "height": 300.0,
+          "width": 300.0
+        }
+      ],
+      "averageRating": 0.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "32533HUXSoft.AIChatOpenGPT_aep6pg3hkma3e"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9PFMTGK1JVKL"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2025-08-19T07:45:58Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.28916.14197679614585231.de85c1cd-6fcb-46d1-b114-4d25e06cfa03.241cab60-4874-47b1-b5d0-45980930321a",
+          "height": 1080.0,
+          "width": 1920.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.40520.14197679614585231.7a4a0b7e-bfeb-48e8-b0e8-c6c60a2ce6df.e4b84d61-7ade-43d2-bf71-f89243f66a04",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.40520.14197679614585231.7a4a0b7e-bfeb-48e8-b0e8-c6c60a2ce6df.e4b84d61-7ade-43d2-bf71-f89243f66a04",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.49395.14197679614585231.e660fe1c-a731-4f44-b58d-5c7314db493b.cd75aa15-9a83-4b9e-82b6-b497f42aebba",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "ai-chatplus",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9mw8l4lrrcrh",
+      "title": "AI Chat for the Desktop",
+      "description": "We have brought AI chat to Windows devices, powered by ChatGPT API.\r\n\r\nAI Chat for the Desktop powered by ChatGPT API incorporates the advanced language capabilities, allowing you to engage in intelligent and informative conversations.\r\n\r\nYou can customize various settings like setting the AI with different styles and personalities.\r\n\r\nAbility to copy each AI response or all the chat for pasting into another application.\r\n\r\nYou can also turn on AI speech to read you AI responses.\r\n\r\nThis app consumes tokens to interact with the AI, we grant you some initial free tokens, when these tokens run out you will need to make in app purchases to acquire more tokens in order to continue to interact with the AI.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "EdgeWay Software",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "#000000",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.29161.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.e9c47e10-26c0-4783-b8d6-59687fde5440",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#000000",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.47531.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.65e8837c-f8ab-463d-91a6-572292e5e59c",
+          "height": 620.0,
+          "width": 620.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "#000000",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.7822.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.1a48dabf-557c-4f7a-be65-78a67bf53f1c",
+          "height": 300.0,
+          "width": 620.0
+        }
+      ],
+      "averageRating": 0.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "22062EdgeWaySoftware.AIChatfortheDesktop_899325t744j9a"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9MW8L4LRRCRH"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2023-04-21T18:51:30.1967661Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "#000000",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.55647.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.dc18ae61-377f-4d72-a3af-0ddb418bea45",
+          "height": 1080.0,
+          "width": 1920.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "0",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.29161.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.e9c47e10-26c0-4783-b8d6-59687fde5440",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.29161.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.e9c47e10-26c0-4783-b8d6-59687fde5440",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.29161.13848235711712514.01d5108b-86a9-4da4-8d71-13f8a005ed02.e9c47e10-26c0-4783-b8d6-59687fde5440",
+      "iconUrlBackground": "#000000",
+      "screenshots": [],
+      "encodedTitle": "ai-chat-for-the-desktop",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9pl9fbm6wxls",
+      "title": "Chatotron",
+      "description": "Explore the latest updates of Chatotron, your definitive Windows application for interacting with ChatGPT, OpenAI\u0027s artificial intelligence assistant. Now, enjoy an even more personalized and efficient chatbot experience right from your desktop.\r\n\r\nWith Chatotron, you can:\r\n\r\n- **Interact in Multiple Languages**: Utilize Chatotron in your preferred language, opening up a world of accessibility. Perfect for those seeking a multilingual GPT chat assistant.\r\n\r\n- **Interact with Documents and URLs**: Transform the way you handle documents and web content. Chatotron now allows you to \"converse\" with your PDFs, Word documents, text files and web pages, creating a unique interaction experience. This feature will be continuously enhanced in future updates. Ideal for those desiring a Chat GPT user interface that handles documents and URLs.\r\n\r\n- **Experience Enhanced Security**: Enjoy peace of mind knowing that your documents and URLs are handled locally, removing the need to upload them to third-party sites. A key aspect for those who value security in a GPT chat assistant.\r\n\r\n- **Enjoy Greater Stability**: With our meticulous bug fixes and stability enhancements, expect a smoother, hassle-free experience.\r\n\r\nChatotron provides ultra-fast response times and quick access to commands, outpacing other Chat GPT interfaces in speed and efficiency. With quick keys, organized chat groups, and custom character creation, you can interact with ChatGPT like never before.\r\n\r\nCustomize your ChatGPT experience even further. Create different personalities for Chat GPT to adapt to, adding more depth to your dialogues. Use Chatotron\u0027s customizable quick keys for swift and efficient access. Save time with quick commands for prompts and repetitive phrases, maximizing your chat efficiency.\r\n\r\nKeep your chats organized and easily identifiable with group chats and color coding. Experience the power of Chatotron, the ultimate tool for efficient, personalized, and secure chats. Try Chatotron today and discover a new level of interaction with ChatGPT right from your own operating system.\r\n\r\n**An OpenAI API Key (either free or paid) is required to use Chatotron.**\r\n** You can get it here: https://platform.openai.com/account/api-keys **",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Antonio Rodrigo y Carlos Martínez",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.41699.14317161909528619.297f0e60-4fac-42ad-92ea-ebde4b0f7c24.3a2e4dbb-389a-4b24-85bd-7e57ab2b1c21",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.64201.14317161909528619.297f0e60-4fac-42ad-92ea-ebde4b0f7c24.6daaf8e2-c561-4f9e-bb5c-28ea947d09da",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.57888.14317161909528619.1dbb8e1f-e980-47ac-b950-cb08daf5cc13.140a7b3f-31b5-4c54-afe4-1dc987217566",
+          "height": 1080.0,
+          "width": 1080.0
+        },
+        {
+          "imageType": "Poster",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.490.14317161909528619.1dbb8e1f-e980-47ac-b950-cb08daf5cc13.f2433dc2-ac58-4908-aad2-1b085912b664",
+          "height": 1080.0,
+          "width": 720.0
+        }
+      ],
+      "averageRating": 5.0,
+      "price": 1.99,
+      "displayPrice": "1,99 €",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "37158AntonioRodrigoyCarlo.195101F5A1C81_616ww76v9474a"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9PL9FBM6WXLS"
+      },
+      "skusSummary": [
+        {
+          "msrp": 1.99,
+          "displayMSRP": "1,99 €",
+          "salePrices": [
+            {
+              "price": 1.99,
+              "displayPrice": "1,99 €",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2023-05-08T12:48:02.3638933Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.1195.14317161909528619.1dbb8e1f-e980-47ac-b950-cb08daf5cc13.d8e3ec57-e331-46a6-bcc5-879a2b44f535",
+          "height": 1282.0,
+          "width": 1920.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 1.99,
+        "price": 1.99,
+        "displayPrice": "1,99 €",
+        "forceToDisplayPrice": false,
+        "narratorText": "1,99 € ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "5",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.64201.14317161909528619.297f0e60-4fac-42ad-92ea-ebde4b0f7c24.6daaf8e2-c561-4f9e-bb5c-28ea947d09da",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.490.14317161909528619.1dbb8e1f-e980-47ac-b950-cb08daf5cc13.f2433dc2-ac58-4908-aad2-1b085912b664",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.57888.14317161909528619.1dbb8e1f-e980-47ac-b950-cb08daf5cc13.140a7b3f-31b5-4c54-afe4-1dc987217566",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chatotron",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": false
+        }
+      ]
+    },
+    {
+      "productId": "9pm95fzqx3j5",
+      "title": "TW PLAY",
+      "description": "★★★★★\nWith TW PLAY you can watch live streams of the video games and activities you love, and chat with streamers and other viewers, from anywhere, anytime. From League of Legends, to Overwatch, to live art demos, if it’s worth watching, it’s live now.\n",
+      "categories": [
+        "Entertainment"
+      ],
+      "publisherName": "Good Media Group",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.37826.14302049317902454.9ac39cb9-b1cf-426c-9405-855a07935b61.9d2d4bba-96ef-4fb4-8edb-d23f14a6d83f",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.26236.14302049317902454.9ac39cb9-b1cf-426c-9405-855a07935b61.e49188d3-c3a3-4e43-98f4-ba85b55bba5a",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.42728.14302049317902454.10a1da6c-b97f-4f3c-bb8b-f47317286c15.5de62569-057d-42a0-bb71-cf371500dd8b",
+          "height": 1080.0,
+          "width": 1080.0
+        },
+        {
+          "imageType": "Poster",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.39185.14302049317902454.10a1da6c-b97f-4f3c-bb8b-f47317286c15.09772c43-fb2e-4a56-a84f-a3afabae48a9",
+          "height": 1080.0,
+          "width": 720.0
+        }
+      ],
+      "averageRating": 4.5,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "42731GoodMediaGroup.VidsTokforTwitchGamingLiveStre_wzw6dymc89v9p"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9PM95FZQX3J5"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2018-11-26T03:09:20.2931059Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.26203.14302049317902454.67fef9b8-6c00-4b58-ab67-c5eaa9091aa6.2968f247-5c96-442e-8bda-ec786dbae455",
+          "height": 1080.0,
+          "width": 1920.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "2K",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.26236.14302049317902454.9ac39cb9-b1cf-426c-9405-855a07935b61.e49188d3-c3a3-4e43-98f4-ba85b55bba5a",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.39185.14302049317902454.10a1da6c-b97f-4f3c-bb8b-f47317286c15.09772c43-fb2e-4a56-a84f-a3afabae48a9",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.42728.14302049317902454.10a1da6c-b97f-4f3c-bb8b-f47317286c15.5de62569-057d-42a0-bb71-cf371500dd8b",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "tw-play",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p60lhx9w0cv",
+      "title": "GX.AI - Powered by [Grok] Chatbot",
+      "description": "Developed based on GRock3\n\nInstant questioning, instant answering\nThanks to its powerful GRock3, the GRock3 Chat Robot is able to quickly and impressively answer any question based on existing knowledge.\nFree trial function description:\nA. GRock mini AI chatbot offers 5 free conversation trials.\nAfter exceeding the limit, you need to purchase PLUS to lift the AI chat restriction.\n\n\nUpgrading to Super Account Payment Function Instructions:\nProvide PLUS annual, quarterly, and monthly membership cards to unlock free trial function restrictions.\nMain equity\nA. Provide unlimited robot chats for GRock mini models every month.\nB. Provide 500-600 conversations per month for GRock Super.\nC. Provide 100 art drawing text generated images for AI painting every month.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "GAI.GROUP",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.25073.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.cee6312c-36b5-45e2-b583-a52dc28d7683",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.15072.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.aa4b3baa-d0e1-4596-9ec0-642ce58bdec9",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.33660.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.6eea5858-a3d7-4a9f-9b5b-74619699982a",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.5113.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.ae37e615-63a8-4faf-ac90-4b76ee82a36a",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 4.7,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "liujialiang.GRockAI_wxd49e529gy6e"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P60LHX9W0CV"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2025-03-04T05:48:44.7444235Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.38659.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.d31dbcfb-db51-4333-9ad0-d8b47f9c5e35",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "47",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.25073.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.cee6312c-36b5-45e2-b583-a52dc28d7683",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.5113.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.ae37e615-63a8-4faf-ac90-4b76ee82a36a",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.5113.14629313122722235.c48b1a2f-0efe-4565-a546-b63a3008f5c0.ae37e615-63a8-4faf-ac90-4b76ee82a36a",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "gx-ai-powered-by-%5bgrok%5d-chatbot",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9pkg556gft08",
+      "title": "ChatAI4o - Multi AI Hub (Support GPT-4o, Gemini \u0026 Grok)",
+      "description": "The Seamless and Intuitive Way to Communicate with AI.\n﻿\nWith us, you can:\n• Compose: we can help you draft original content, such as articles, blog posts, or social media updates, with ease and creativity. You could also write a customized resume or cover letter with we.\n• Rewrite: Enhance your existing text by using ChatPDF Companion to rewrite and rephrase your content, making it more engaging and effective.\n• Explain Content: we could explain complex topics with languages easy to understand for different people or explain based on the content provided by users. \n• Brainstorm: Got no idea about a task? Tell we, and it will generate innovative ideas and solutions for you. Brainstorming with we is a smooth journey with enriching ideas.\n• Write Content for Emails: Craft professional and well-thought-out emails using we, saving time and keeping great layouts.\n• Translate: Break language barriers by using we to translate text between languages, ensuring clear communication and understanding.\n• Write, Debug, and Explain Code: we could act like an experienced programmer and help in programming. Give it a piece of code and it will perfect the code for you.\n• Personalized Chatbot: With endless use situations, we could be your companion and chat on any topics you provided.\n• Users have endless possibilities with we. Try it and experience more!\n﻿\nwe can make the journey to interact with AI a breeze. It provides:\n• Effortless AI Interaction: we brings an easy and effortless experience to interact with AI. \n• 100+ Preset Prompt Templates: Always have the perfect conversation starter with we’s extensive collection of hundreds of preset prompt templates, covering a wide range of topics.\n• Add Prompts to Favorites: we allows users to create their own library of prompts by saving the most frequently used or favorite prompts for quick and easy access.\n﻿\nEnjoy smooth conversations and get the most out of your AI experience with we now. More exciting features are on the way!\n﻿\n[In-app Purchases Features]\n• Unlimited chat with AI\n• More accurate and detailed answers\n• No ads\n• Various prompt templates\n﻿\nFree Plan\n\nLimit 5 conversations per day\n\nSubscription plan\n• $54/yearly\n• $9/monthly\n• $2.5/weekly",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "Genius Effect",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.9182.14263203809097859.212d0c44-b9a7-4f9b-8c90-4304e90c2ef6.72e2403c-2585-4b72-989d-31ac0ba558e4",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.65430.14263203809097859.212d0c44-b9a7-4f9b-8c90-4304e90c2ef6.ddfda239-491c-4ecd-bbdc-d74f9d7c372c",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.24751.14263203809097859.212d0c44-b9a7-4f9b-8c90-4304e90c2ef6.6d00b666-e936-4065-a3a4-1c1cfc3b9be7",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.11967.14263203809097859.8766ad63-465c-4be2-aa32-3e579444b656.da99b228-c8b7-47c9-adf5-87c1c4862059",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 4.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "LiJingyu.ChatMan_nwmn56dqgwest"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9PKG556GFT08"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2024-06-20T01:46:56.46948Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.5894.14263203809097859.644e59ef-638c-485a-8569-7ca8ad7a0ddb.d42551fd-ef96-4703-8833-0d0b9e72ddf2",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "6",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.9182.14263203809097859.212d0c44-b9a7-4f9b-8c90-4304e90c2ef6.72e2403c-2585-4b72-989d-31ac0ba558e4",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.11967.14263203809097859.8766ad63-465c-4be2-aa32-3e579444b656.da99b228-c8b7-47c9-adf5-87c1c4862059",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.11967.14263203809097859.8766ad63-465c-4be2-aa32-3e579444b656.da99b228-c8b7-47c9-adf5-87c1c4862059",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chatai4o-multi-ai-hub-(support-gpt-4o-gemini-%26grok)",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p5ddwp14cb7",
+      "title": "Chatbot 5.2 - Developed chat gpt AI",
+      "description": "A highly flexible and customizable smart assistant designed to meet the diverse needs of enterprises, developers and individual users. Through advanced natural language processing (NLP), machine learning (ML) and deep learning (DL) technologies, users can create their own AI assistant according to specific scenarios and business needs, improve work efficiency and optimize user experience.\n\nCore functions\nHighly customizable\n\nDialogue process customization: Users can design dialogue processes according to business needs, supporting multi-round dialogue, context understanding, intent recognition and other functions.\n\nKnowledge base integration: Supports importing exclusive knowledge bases to ensure that the robot can accurately answer industry-specific questions.\n\nPersonalized appearance: The robot\u0027s icon and environmental prompts can be customized according to the brand image. Improve the user interaction experience.\n\nFree trial instructions:\nTry 5 free conversations with the AI chatbot.\nAfter exceeding the limit, you need to purchase Plus membership privileges to lift the AI chat limit.\n﻿\nPlus paid membership description:\nRights:\nA. AI based on OpenAi GPT-4.5 mini model, unlimited chats.\nB. AI based on OpenAi GPT-4.5 turbo model, 500 chats per month.\nC. Based on OpenAi DALL E3 art painting AI, 50 images/month generated.\n",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "AI studio",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.62762.14570808195787400.26113457-2660-48b2-8139-4d27ff55c8a9.8a4c1472-6496-4971-b6d4-a2079da0d920",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.18323.14570808195787400.26113457-2660-48b2-8139-4d27ff55c8a9.d80ea466-6ff6-4653-bb38-bb13bc888e5c",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.53972.14570808195787400.26113457-2660-48b2-8139-4d27ff55c8a9.64d9e97a-ebde-4cf3-b086-6a674a6716a5",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.37825.14570808195787400.94f56cac-7762-444e-9d17-fc4a3905e231.46d5d116-6cf7-4dc7-b573-6a5105da25b8",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 5.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "ChatDog.chataidog_q3xpz5c0sqvqa"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P5DDWP14CB7"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2025-03-05T08:22:52.4674672Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.4424.14570808195787400.fa3bb4db-3684-4c2a-bfa9-55bc84b3d944.20e3b36a-45fd-4227-9932-8bdb1fc07f21",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "5",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.62762.14570808195787400.26113457-2660-48b2-8139-4d27ff55c8a9.8a4c1472-6496-4971-b6d4-a2079da0d920",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.37825.14570808195787400.94f56cac-7762-444e-9d17-fc4a3905e231.46d5d116-6cf7-4dc7-b573-6a5105da25b8",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.37825.14570808195787400.94f56cac-7762-444e-9d17-fc4a3905e231.46d5d116-6cf7-4dc7-b573-6a5105da25b8",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chatbot-5-2-developed-chat-gpt-ai",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PEGI 18",
+          "ratingId": "PEGI:18",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.26897.image.64890c63-4571-4629-89cc-ef467a5481a9.00df46ca-f579-40b3-abc8-9a83e9caad03",
+          "ratingAge": 18.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Extreme Violence"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Users Interact"
+          ],
+          "longName": "PEGI 18",
+          "shortName": "PEGI 18",
+          "description": "For ages 18 and up",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9mxpbk1c3zv9",
+      "title": "ChatArt",
+      "description": "ChatArt: Best AI Writing Assistant, SEO Content Generator, Article Checker, Chat Robot.\n-SEO Article Generator\nBuilt for marketers, write factual and accurate articles to help you grow your natural traffic.\n-AI Rewrite\nAI articles for humane writing, bypassing all the AI trace checkers on the market.\n-Grammar Detection\nAllows you to easily express your views in any style and tone, while ensuring that your grammar, punctuation and spelling are correct.\n-Rewriting Tools\nUse the easiest rewriting tool to produce the highest quality \u0026 AI-free text content.\n-Chatbot\nText-to-diagram, Internet dialogue, document \u0026 picture dialogue, .... GPT-4o model-supported one-stop intelligent chatbot to meet all your needs.\n-AI Editor\nChatbot embedded, text rewriting, text personalisation, format optimisation, insertion of AI pictures, improve your writing efficiency.\n-AI Picture Generation\nDall-e-3 model support, a variety of types of styles to choose from to provide you with high-quality drawings.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "imyfone",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.31669.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.85094e9e-6a6a-4b6a-8ee6-6ae1cce65bd0",
+          "height": 100.0,
+          "width": 100.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.15462.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.19d00992-7021-47c3-9001-0e977c58cd79",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.25783.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.55ab7f00-f79a-41bf-9bb2-d3bc8d9b1959",
+          "height": 225.0,
+          "width": 225.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.44046.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.f2bda8d4-4d32-47c0-9444-6f1a47e1035d",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.32966.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.f8b98156-28c6-495f-8745-c9f007ae5646",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.5628.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.6b32560a-edaa-4d65-bd97-e5038017c578",
+          "height": 465.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.46393.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.93727f68-6122-4896-b3ac-3104094de970",
+          "height": 620.0,
+          "width": 620.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.54735.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.b1fd55e1-a802-4fdf-8abe-d49c1de4d0d7",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.2658.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.e86075c9-197c-418f-b67e-0c2d66b041f8",
+          "height": 225.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.57283.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.827d99d8-5fbc-4bcb-bdfa-056bec39128a",
+          "height": 300.0,
+          "width": 620.0
+        }
+      ],
+      "averageRating": 0.0,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "imyfone.ChatArt_y1evv1xethvtw"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9MXPBK1C3ZV9"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2024-08-05T05:51:24.4770549Z",
+      "appExtCategoryNames": [
+        "AppExtension-microsoft.store.edgePWA",
+        "AppExtension-com.ms.webapp.internals.4"
+      ],
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "AI tool ChatArt introduction",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.21884.13886193477585190.fc0b980b-f758-4202-9825-5d7c34313f2f.69527e09-7da7-41e5-a392-0a393457fcf4",
+          "height": 648.0,
+          "width": 921.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.31669.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.85094e9e-6a6a-4b6a-8ee6-6ae1cce65bd0",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.44046.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.f2bda8d4-4d32-47c0-9444-6f1a47e1035d",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.31669.13886193477585190.3a34a57b-81ed-48de-9789-09ae70f51a79.85094e9e-6a6a-4b6a-8ee6-6ae1cce65bd0",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chatart",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": true,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Unrestricted Internet",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9nxnp4gxwmfm",
+      "title": "Just Checking",
+      "description": "Just Checking is a checkbook software app that will help manage your checkbook. Enter transactions, mark them cleared, and compare the balance to your statements to reconcile. Print checks using predefined templates. Use the built-in check template editor to make changes if necessary.\r\n\r\nManages multiple checking accounts.\r\nCalculates actual and bank balances for each transaction.\r\nSplit transactions.\r\nSupports multiple users.\r\nPassword protect your files.\r\nCheck printing.\r\nMulti-Level sorting. Ascending and Descending sorting.\r\nDisable sorting and move transactions to match your statement.\r\nAdvanced filtering.\r\nEdit check templates.\r\nReports for checkbook register, payees, memos, splits.\r\nPayee, Memo, Split reports for totals, details, summary grouped by income and expenses.\r\nCustom Pay Types\r\nImport data exported from your bank: ofc, ofx, qif, qfx, csv\r\nSet up reoccurring transactions.\r\nBackup and Restore database.\r\nCustomize font and color.\r\nMark transactions for tax records.\r\nUpdated help file with pictures.\r\nSearch dialog with highlighting\r\nNote fields specific to each transaction.\r\nHigh DPI support. Works great on 4K too!",
+      "categories": [
+        "Personal finance"
+      ],
+      "publisherName": "WWW.JUSTAPPS.COM",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.61596.14492327951271914.f4768c3d-7bcb-4e04-bcdf-73c0e1d08249.eccc8472-90df-4cad-966e-a095b9424a38",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.58210.14492327951271914.eded2721-912d-4baf-893d-069038dcf893.81c74e9d-ee1c-4c1b-abce-b3317bc8fdae",
+          "height": 300.0,
+          "width": 300.0
+        }
+      ],
+      "averageRating": 0.0,
+      "price": 14.99,
+      "displayPrice": "14,99 €",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "WWW.JUSTAPPS.COM.JustChecking_wjpnh42na8hgt"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9NXNP4GXWMFM"
+      },
+      "skusSummary": [
+        {
+          "msrp": 14.99,
+          "displayMSRP": "14,99 €",
+          "salePrices": [
+            {
+              "price": 14.99,
+              "displayPrice": "14,99 €",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2017-08-01T17:18:50.0032211Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "Main Screen",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.48464.14492327951271914.71d24c72-911b-44fc-b838-8ec1aca71f68.978cc9e2-146e-4d12-8058-0eaeb4948f1c",
+          "height": 678.0,
+          "width": 1148.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 14.99,
+        "price": 14.99,
+        "displayPrice": "14,99 €",
+        "forceToDisplayPrice": false,
+        "narratorText": "14,99 € ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.58210.14492327951271914.eded2721-912d-4baf-893d-069038dcf893.81c74e9d-ee1c-4c1b-abce-b3317bc8fdae",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.58210.14492327951271914.eded2721-912d-4baf-893d-069038dcf893.81c74e9d-ee1c-4c1b-abce-b3317bc8fdae",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.61596.14492327951271914.f4768c3d-7bcb-4e04-bcdf-73c0e1d08249.eccc8472-90df-4cad-966e-a095b9424a38",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "just-checking",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PEGI 3",
+          "ratingId": "PEGI:3",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.4635.image.6f55bab8-d894-46ea-94d9-4ad102009096.4211468b-3c13-4a63-9bd3-07385b207b19",
+          "ratingAge": 3.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [],
+          "longName": "PEGI 3",
+          "shortName": "PEGI 3",
+          "description": "For ages 3 and up",
+          "hasInAppPurchases": false
+        }
+      ]
+    },
+    {
+      "productId": "9p22f2n0x315",
+      "title": "One Click Tube Downloader - HD",
+      "description": "Welcome to One Click Tube Downloader - HD, the ultimate solution for seamless and efficient high-definition video downloads from YouTube! Our app is specifically designed to provide you with a hassle-free experience, making it easy for you to access high-quality video content from YouTube. With One Click Tube Downloader - HD, you can download your favorite YouTube videos in high definition and enjoy a visual feast of top-notch quality, anytime and anywhere.\n\nKey Features:\n\n1. One-Click YouTube Video Downloads:\nOne Click Tube Downloader - HD offers a simple and user-friendly interface for downloading YouTube videos. With just one click, you can initiate video downloads. No complicated procedures or steps – just a simple tap to quickly acquire the high-definition videos you desire from YouTube.\n\n2. High-Definition YouTube Video Quality:\nOur app is dedicated to providing you with high-definition video downloads from YouTube, ensuring an immersive viewing experience. Whether it\u0027s captivating movies, hilarious short clips, or heartwarming music videos from YouTube, everything will be presented in crisp high-definition quality.\n\n3. Security and Privacy Protection:\nWe highly value your privacy and have implemented strict security measures to safeguard your personal information while using the app to download YouTube videos. Feel confident while downloading videos with One Click Tube Downloader - HD, knowing that your data is secure.\n\n4. Regular Updates:\nTo ensure the best user experience and to keep up with the latest changes on YouTube, One Click Tube Downloader - HD receives regular updates, optimizing its features and ensuring compatibility with YouTube\u0027s updates. You\u0027ll always have access to the latest download capabilities and enhancements.\n\nConclusion:\nExperience the ultimate convenience of high-definition video downloads from YouTube with One Click Tube Downloader - HD. Enjoy a visual feast of top-notch quality, courtesy of our app, as you effortlessly download your favorite YouTube videos and savor high-definition content wherever and whenever you desire.\n\nNote for Users:\n\nFree Users:\n1. Upon registration, receive 3 credits as a gift to download YouTube videos.\n2. Credits will be consumed every time a YouTube video is downloaded.\n3. After the credits are depleted, you can subscribe to continue using the app for YouTube video downloads.\n\nVIP Users:\nVIP users enjoy unlimited video downloading privileges from YouTube, unlocking a seamless and unrestricted video downloading experience.",
+      "categories": [
+        "Photo \u0026 video"
+      ],
+      "publisherName": "MeetmeXM Technology Co., Ltd",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.62598.14500108453695528.489fd007-0923-4f1d-abf6-94d5c55df45a.fbc419d3-65fc-42d3-9db2-f80619885f3c",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.25400.14500108453695528.489fd007-0923-4f1d-abf6-94d5c55df45a.0feafc05-85af-4115-a633-05915c7a6956",
+          "height": 300.0,
+          "width": 620.0
+        }
+      ],
+      "averageRating": 4.5,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "14184MeetmeXMTechnologyCo.OneClickTubeDownloader-H_8712n5bmjvf8t"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P22F2N0X315"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2023-07-26T10:05:03.6284694Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.30734.14500108453695528.4323df3a-2862-4eb5-9067-c33fbce03735.64744dd3-cb50-4d20-9ba9-dbcbfdcd122f",
+          "height": 1504.0,
+          "width": 2560.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "22",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.62598.14500108453695528.489fd007-0923-4f1d-abf6-94d5c55df45a.fbc419d3-65fc-42d3-9db2-f80619885f3c",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.62598.14500108453695528.489fd007-0923-4f1d-abf6-94d5c55df45a.fbc419d3-65fc-42d3-9db2-f80619885f3c",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.62598.14500108453695528.489fd007-0923-4f1d-abf6-94d5c55df45a.fbc419d3-65fc-42d3-9db2-f80619885f3c",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "one-click-tube-downloader-hd",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PEGI 3",
+          "ratingId": "PEGI:3",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.4635.image.6f55bab8-d894-46ea-94d9-4ad102009096.4211468b-3c13-4a63-9bd3-07385b207b19",
+          "ratingAge": 3.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PEGI 3",
+          "shortName": "PEGI 3",
+          "description": "For ages 3 and up",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9p2h2dwmxr72",
+      "title": "ChatGPS 5.2 AI - Powered by Open API",
+      "description": "Developed based on GPT-5.2\nInstant questioning, instant answering\nThanks to its powerful Openai API and GPT-5 model, the AI chatbot Chat Robot is able to quickly and impressively answer any question based on existing knowledge.\nFree trial function description:\nA. GPT-5.2 AI chatbot offers 5 free conversation trials.\nAfter exceeding the limit, you need to purchase PLUS to lift the AI chat restriction.\nPlus payment function description:\nProvide PLUS annual, quarterly, and monthly membership cards to unlock free trial function restrictions.\nMain equity\nA. Provide unlimited robot chats for GPT-5.2 models every month.\nB. Provide 500-600 conversations per month for GPT-5.2 Pro.\nC. Provide 100 art drawing text generated images per month for DALL E3.",
+      "categories": [
+        "Productivity"
+      ],
+      "publisherName": "GAI.GROUP",
+      "images": [
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.34288.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.a49a0a6f-cb23-4942-bcf1-6539bd001775",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.22939.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.762f6910-0268-48b5-b05d-fc57dc2c6cf7",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.44404.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.4065c067-e65a-47c2-b922-0daa722646bb",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "BoxArt",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.42726.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.f22ca869-c623-4b41-ac88-b1193e0318bd",
+          "height": 1080.0,
+          "width": 1080.0
+        }
+      ],
+      "averageRating": 4.9,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "liujialiang.OpenBot-AIChatbotAssistant_wxd49e529gy6e"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9P2H2DWMXR72"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2025-01-17T14:08:18.7871191Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.12858.14558024415327943.d0dd62b0-f14a-4f00-aaa7-0bb352724a95.45a32750-d5c5-4d60-86c2-702767e5dc13",
+          "height": 810.0,
+          "width": 1440.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "16",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.34288.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.a49a0a6f-cb23-4942-bcf1-6539bd001775",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.42726.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.f22ca869-c623-4b41-ac88-b1193e0318bd",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.42726.14558024415327943.a60ed254-313b-4ee1-93aa-dd570660fc2a.f22ca869-c623-4b41-ac88-b1193e0318bd",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "chatgps-5-2-ai-powered-by-open-api",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PARENTAL GUIDANCE RECOMMENDED",
+          "ratingId": "PEGI:!",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.28928.image.6fc723a6-95bc-4c76-bb6d-cc8ea247abc4.396c7462-7740-4685-be89-a6ff11508adb",
+          "ratingAge": 12.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [
+            "Parental Guidance Recommended"
+          ],
+          "ratingDescriptorLogoUrls": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases",
+            "Shares Location",
+            "Users Interact"
+          ],
+          "longName": "PARENTAL GUIDANCE RECOMMENDED",
+          "shortName": "!",
+          "description": "Parental Guidance Recommended",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9nblggh08dwp",
+      "title": "IPTV",
+      "description": "Internet Protocol Television (IPTV) media player delivers television programs over the Internet, using live streaming media sources from .m3u or .m3u8 playlist files.",
+      "categories": [
+        "Entertainment"
+      ],
+      "publisherName": "Димитър Минчев",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.25594.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.09c06883-b9b4-4b0d-9b46-a5a6b1b6ee31",
+          "height": 100.0,
+          "width": 100.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.41978.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.d6fb07e7-845c-4ba2-bdb7-30656572f4c3",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.44298.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.ca6007fd-bb3d-4f05-bfe5-558acc41742d",
+          "height": 225.0,
+          "width": 225.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.50771.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.b47d4d77-176c-4d79-9420-4c7e8d8b3ada",
+          "height": 300.0,
+          "width": 300.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.7124.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.a0901349-0ce7-4ddd-826e-ad38fa8fac80",
+          "height": 310.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.64622.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.bcc2ba23-cac6-49c7-9d36-162a2c222fe3",
+          "height": 465.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.37907.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.5e861af7-d1ae-4be0-90fa-0383b66d74be",
+          "height": 620.0,
+          "width": 620.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.13701.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.16eb8f83-6356-4547-b6bc-f556404d308e",
+          "height": 150.0,
+          "width": 310.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.31583.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.7b4b13d1-b006-48c5-afbe-98bd219ea834",
+          "height": 225.0,
+          "width": 465.0
+        },
+        {
+          "imageType": "tile",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.15702.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.d87335f2-d8c7-4b3c-9c2c-820be7e7bc70",
+          "height": 300.0,
+          "width": 620.0
+        }
+      ],
+      "averageRating": 3.2,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "41749.InternetTelevision_6n513g1ea5t8t"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9NBLGGH08DWP"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2014-02-28T07:15:19.47Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "transparent",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.34348.13510798882855592.3b063004-cc8b-4f93-80c9-7cb9967ade2b.64de97bd-f9de-447c-bf3c-ba822dc4510d",
+          "height": 1080.0,
+          "width": 1920.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "103",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.25594.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.09c06883-b9b4-4b0d-9b46-a5a6b1b6ee31",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.50771.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.b47d4d77-176c-4d79-9420-4c7e8d8b3ada",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.25594.13510798882855592.8ae00345-f919-4436-98ad-8206cbc5f2ce.09c06883-b9b4-4b0d-9b46-a5a6b1b6ee31",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "iptv",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PEGI 3",
+          "ratingId": "PEGI:3",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.4635.image.6f55bab8-d894-46ea-94d9-4ad102009096.4211468b-3c13-4a63-9bd3-07385b207b19",
+          "ratingAge": 3.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [
+            "In-App Purchases"
+          ],
+          "longName": "PEGI 3",
+          "shortName": "PEGI 3",
+          "description": "For ages 3 and up",
+          "hasInAppPurchases": true
+        }
+      ]
+    },
+    {
+      "productId": "9n3w418ngl0d",
+      "title": "1890CursoMecaNet.CursoMecaNet.FS",
+      "description": "The best typing course in Spanish language.\r\n\r\nCursoMecaNet is a complete free typing course in Spanish that will teach us to write in the fastest and safest way possible. This software for PC allows you to acquire greater speed to write texts without looking at the computer keyboard.\r\n\r\nThe Full Screen version is designed with simplified menus to be easily used by the youngest or in typing classrooms.\r\n\r\nIt is organized in 20 lessons, with indications of the position and movement of the fingers, a large number of typing exercises and various typing games.\r\n\r\nIt allows to save and upload to different users all the information of the development of each lesson.\r\n\r\nThis Full Screen version of CursoMecaNet is a program that allows you to learn to type on the computer keyboard without looking, using the ten fingers. This way you can reach between 250 and 300 beats per minute.\r\nCursoMecaNet is completely free, it does not have an expiration date and it contains the complete texts of its multiple lessons and exams.\r\n\r\nThis course contains a large number of lessons, organized in a progressive way of difficulty, introducing little by little the different keys and explanations of how we should place our hands on the keyboard and which finger each key should press, in this way we will learn to write without having to look at the keyboard of your computer. Contains in addition to the numerous lessons, several typing games, to practice in a more enjoyable way what has been learned.\r\n\r\nMecaNet develops a pedagogical method of learning with which every lesson uses everything that has been learned in the previous lessons, while adding new keys. In this way, the acquired skills are consolidated while new ones are learned.\r\n\r\nWe advise that the work sessions are not excessively long, from 20 to 25 minutes a day, for 4 days a week. In this way, in two or three months you will write correctly and you will have reached an optimal level of beats per minute. It is essential to emphasize that during the first weeks of learning, we must focus our attention on the correctness of writing, that is, not make mistakes while writing, although this makes us slow down. The speed will be achieved naturally as you progress through the lessons with practice.\r\n\r\nLearning to type is a skill that requires several weeks (or even months) to master, while almost all other computer applications can be learned quickly \"at work\" when we enter the world of work. That\u0027s why it\u0027s important that when the time comes we have this skill acquired. It is advisable to learn as a child or young person before developing bad habits typing with the keyboard (type with two fingers) since when this happens, it is difficult to correct.\r\n",
+      "categories": [
+        "Education"
+      ],
+      "publisherName": "CursoMecaNet",
+      "images": [
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.43680.13995126212694531.fce96740-fd21-4c58-ac45-011c5df42918.dc7761ff-472d-4041-b745-237f729f0e79",
+          "height": 150.0,
+          "width": 150.0
+        },
+        {
+          "imageType": "logo",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "",
+          "url": "https://store-images.s-microsoft.com/image/apps.57306.13995126212694531.e5ef76d6-d926-4c38-8789-cfd87a7d1a68.0b20c80c-df3c-4d91-9375-4d9ee2cb29c4",
+          "height": 300.0,
+          "width": 300.0
+        }
+      ],
+      "averageRating": 4.5,
+      "price": 0.0,
+      "displayPrice": "Free",
+      "productFamilyName": "Apps",
+      "packageFamilyNames": [
+        "1890CursoMecaNet.CursoMecaNet.FS_sva9t5kr9qem2"
+      ],
+      "isGamingAppOnly": false,
+      "installer": {
+        "type": "WindowsUpdate",
+        "id": "9N3W418NGL0D"
+      },
+      "skusSummary": [
+        {
+          "msrp": 0.0,
+          "displayMSRP": "Free",
+          "salePrices": [
+            {
+              "price": 0.0,
+              "displayPrice": "Free",
+              "badgeId": "default"
+            }
+          ]
+        },
+        {}
+      ],
+      "releaseDateUtc": "2018-08-09T15:20:33.0480468Z",
+      "previews": [
+        {
+          "$type": "Microsoft.Marketplace.Storefront.Contracts.V2.ImageItem, Microsoft.Marketplace.Storefront.Contracts",
+          "imageType": "Screenshot",
+          "backgroundColor": "",
+          "foregroundColor": "",
+          "caption": "",
+          "imagePositionInfo": "Desktop/0",
+          "url": "https://store-images.s-microsoft.com/image/apps.16124.13995126212694531.fce96740-fd21-4c58-ac45-011c5df42918.a1cae42d-935a-44c7-a351-0e0b5958f00f",
+          "height": 1080.0,
+          "width": 1920.0
+        }
+      ],
+      "priceInfo": {
+        "msrp": 0.0,
+        "price": 0.0,
+        "badgeText": "NaN",
+        "displayPrice": "Free",
+        "forceToDisplayPrice": false,
+        "narratorText": "NaN Free ",
+        "ownership": 0.0
+      },
+      "typeTag": "app",
+      "ratingCountFormatted": "8",
+      "iconUrl": "https://store-images.s-microsoft.com/image/apps.57306.13995126212694531.e5ef76d6-d926-4c38-8789-cfd87a7d1a68.0b20c80c-df3c-4d91-9375-4d9ee2cb29c4",
+      "posterArtUrl": "https://store-images.s-microsoft.com/image/apps.57306.13995126212694531.e5ef76d6-d926-4c38-8789-cfd87a7d1a68.0b20c80c-df3c-4d91-9375-4d9ee2cb29c4",
+      "boxArtUrl": "https://store-images.s-microsoft.com/image/apps.43680.13995126212694531.fce96740-fd21-4c58-ac45-011c5df42918.dc7761ff-472d-4041-b745-237f729f0e79",
+      "iconUrlBackground": "transparent",
+      "screenshots": [],
+      "encodedTitle": "1890cursomecanet-cursomecanet-fs",
+      "isApplication": true,
+      "isGame": false,
+      "isTvSeries": false,
+      "isMovie": false,
+      "isMoviesOrTVs": false,
+      "isPwa": false,
+      "isCoreGame": false,
+      "isAllowed": false,
+      "isBrowsable": false,
+      "isPurchaseEnabled": false,
+      "isAd": false,
+      "isSparkProduct": false,
+      "isAndroid": false,
+      "isHardware": false,
+      "isSubscription": false,
+      "isTencent": false,
+      "isTencentMini": false,
+      "pageTitleLocalization": "Common.PageAppsFreeTitle",
+      "disableDownload": false,
+      "cardActions": [
+        "Update",
+        "Install",
+        "Purchase",
+        "Launch"
+      ],
+      "productRatings": [
+        {
+          "ratingSystem": "Pan European Game Information",
+          "ratingSystemShortName": "PEGI",
+          "ratingSystemId": "PEGI",
+          "ratingSystemUrl": "https://go.microsoft.com/fwlink/?LinkId\u003d62076",
+          "ratingValue": "PEGI 3",
+          "ratingId": "PEGI:3",
+          "ratingValueLogoUrl": "https://store-images.s-microsoft.com/image/global.4635.image.6f55bab8-d894-46ea-94d9-4ad102009096.4211468b-3c13-4a63-9bd3-07385b207b19",
+          "ratingAge": 3.0,
+          "restrictMetadata": false,
+          "restrictPurchase": false,
+          "ratingDescriptors": [],
+          "ratingDisclaimers": [],
+          "interactiveElements": [],
+          "longName": "PEGI 3",
+          "shortName": "PEGI 3",
+          "description": "For ages 3 and up",
+          "hasInAppPurchases": false
+        }
+      ]
+    }
+  ],
+  "highlightedList": [],
+  "cursor": "bz0wJmI9OU5UMVIxQzJISDdKLDlQQjQ4N1ZHREM0Vyw5UDUzWFYzSldLQkosOVAzVDZOTE5NRFFWLDlQOEpDWkM0NVRXUSw5TlhLMFBLNVpTMUIsOVAwWlJLNDNUV0pQLDlQRk1UR0sxSlZLTCw5TVc4TDRMUlJDUkgsOVBMOUZCTTZXWExTLDlQTTk1RlpRWDNKNSw5UDYwTEhYOVcwQ1YsOVBLRzU1NkdGVDA4LDlQNUREV1AxNENCNyw5TVhQQksxQzNaVjksOU5YTlA0R1hXTUZNLDlQMjJGMk4wWDMxNSw5UDJIMkRXTVhSNzIsOU5CTEdHSDA4RFdQLDlOM1c0MThOR0wwRCZzPVYza1hUdkNuS2sySitGZFRTRDJmQ2c\u003d",
+  "hasCursorPaging": true,
+  "filterOptions": {
+    "mediaType": [
+      [
+        "all",
+        "All departments"
+      ],
+      [
+        "apps",
+        "Apps"
+      ],
+      [
+        "games",
+        "Games"
+      ],
+      [
+        "devices",
+        "Devices"
+      ],
+      [
+        "passes",
+        "Memberships"
+      ],
+      [
+        "fonts",
+        "Fonts"
+      ],
+      [
+        "themes",
+        "Themes"
+      ],
+      [
+        "tencent-android",
+        "Mobile App"
+      ],
+      [
+        "tencent-mini",
+        "Weixin Mini Game"
+      ]
+    ],
+    "UserAge": [
+      [
+        "all",
+        "All ages"
+      ],
+      [
+        "TO3",
+        "3 and under"
+      ],
+      [
+        "TO4",
+        "4"
+      ],
+      [
+        "TO5",
+        "5"
+      ],
+      [
+        "TO6",
+        "6"
+      ],
+      [
+        "TO7",
+        "7"
+      ],
+      [
+        "TO8",
+        "8"
+      ],
+      [
+        "TO9",
+        "9"
+      ],
+      [
+        "TO10",
+        "10"
+      ],
+      [
+        "TO11",
+        "11"
+      ],
+      [
+        "TO12",
+        "12"
+      ],
+      [
+        "TO13",
+        "13"
+      ],
+      [
+        "TO14",
+        "14"
+      ],
+      [
+        "TO15",
+        "15"
+      ],
+      [
+        "TO16",
+        "16"
+      ],
+      [
+        "TO17",
+        "17"
+      ]
+    ],
+    "PriceType": [
+      [
+        "all",
+        "All types"
+      ],
+      [
+        "Free",
+        "Free"
+      ],
+      [
+        "Paid",
+        "Paid"
+      ],
+      [
+        "Sale",
+        "On Sale"
+      ]
+    ]
+  },
+  "storeBannerTriggered": false,
+  "totalCount": 0.0,
+  "nextPageNumber": 0.0,
+  "hasMorePages": true
+}

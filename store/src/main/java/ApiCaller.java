@@ -11,7 +11,7 @@ import java.io.PrintWriter;
 
 
 public class ApiCaller {
-    public static void ApiSearch (String query) throws IOException { //Esto generará un json que leeremos
+    public static String ApiSearch (String query) throws IOException { //Esto generará un json que leeremos
     String cleanQuery = query.trim();
     String Base_Url1half = "https://apps.microsoft.com/api/products/search?query=";
     String Base_Url2half = "&mediaType=all&age=all&price=all&category=all&subscription=all&cursor=&gl=ES&hl=en-ES&exp=1811522136";
@@ -22,9 +22,9 @@ public class ApiCaller {
 
     cleanQuery = cleanQuery.replace(" ", "%20"); //Lo que se usa en vez de espacios en URLs
 
-    String Final_Url = (Base_Url1half.trim() + cleanQuery + Base_Url2half.trim()).trim();
+    String Final_Url = (Base_Url1half + cleanQuery + Base_Url2half).trim();
 
-    try (PrintWriter writer = new PrintWriter(new FileWriter("list.json"))) { //Intentamos obtener la URL y la escribimos a un log.txt 
+    try (PrintWriter writer = new PrintWriter(new FileWriter("lastList.json"))) { //Intentamos obtener la URL y la escribimos a un log.txt 
     Document log = Jsoup.connect(Final_Url).ignoreContentType(true).get();
     String jsonText = log.body().text();
    
@@ -36,8 +36,9 @@ public class ApiCaller {
 
     
     System.out.println("URL: " + Final_Url);
-    System.out.println("API answer written to list.json\n");  
+    System.out.println("API answer written to lastList.json\n");  
     writer.println(prettyJson);
+    return prettyJson;
  
 
 
@@ -49,7 +50,7 @@ public class ApiCaller {
 
     
     public static void main(String[] args) throws IOException {
-        ApiSearch("lenovo"); 
+        ApiSearch("chatGPT"); 
     }
         
 
