@@ -112,6 +112,7 @@ public class Main {
         //Para quye la barra de busqueda funcione
         searchButton.addActionListener(e -> {
             String query = searchField.getText();
+            
             StoreController.searchAndManageUI(query, listPanel);
         });
         

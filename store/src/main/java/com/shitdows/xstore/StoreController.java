@@ -10,31 +10,50 @@ import javax.imageio.ImageIO;
 public class StoreController {
     public static void searchAndManageUI(String query, ListPanel listpanel) {
         listpanel.clearPanels();
-        try {
-            JPanel loadPanel = new JPanel();
-            loadPanel.add(new JLabel("⏳ Loading, Please wait..."));
-            loadPanel.setBackground(Color.decode("#0c8318")); 
-            listpanel.addPanel(loadPanel, 50);
+        
+        JPanel loadPanel = new JPanel();
+        loadPanel.add(new JLabel("Loading, Please wait..."));
+        loadPanel.setBackground(Color.decode("#39be46")); 
+        listpanel.addPanel(loadPanel, 50);
+        
+        listpanel.revalidate();
+        listpanel.repaint();
 
-            String json = ApiCaller.ApiSearch(query); //primero paso el query al ApiCaller y json se vuelve el return de la salida
-            listedItem[] products = ProductParser.jsonParser(json); //metemos el json a leer en jsonParser
-            listpanel.removePanel(loadPanel);
 
+        new Thread(() -> {
+            try {
+                String json = ApiCaller.ApiSearch(query); 
+                listedItem[] products = ProductParser.jsonParser(json);
 
-            for (listedItem item : products) {
-                JPanel productBox = createProductBox(item);
-                listpanel.addPanel(productBox, 120);
+                //cuando se termina la obtención de valores, volvemos al hilo principal y quitamos la caja de carga
+                SwingUtilities.invokeLater(() -> {
+                    listpanel.removePanel(loadPanel);
+
+                    if (products.length == 0) {
+                         JPanel err = new JPanel();
+                         err.add(new JLabel("No results found."));
+                         listpanel.addPanel(err, 50);
+                    } else {
+                        for (listedItem item : products) {
+                            JPanel productBox = createProductBox(item);
+                            listpanel.addPanel(productBox, 160);
+                        }
+                    }
+                    listpanel.revalidate();
+                    listpanel.repaint();
+                });
+
+            } catch (Exception e) {
+                SwingUtilities.invokeLater(() -> {
+                    listpanel.removePanel(loadPanel);
+                    JPanel errorPanel = new JPanel();
+                    errorPanel.add(new JLabel("Error: " + e.getMessage()));
+                    errorPanel.setBackground(Color.RED);
+                    listpanel.addPanel(errorPanel, 50);
+                });
+                e.printStackTrace();
             }
-           
-
-        }
-        catch (Exception e) {
-            JPanel errorPanel = new JPanel();
-            errorPanel.add(new JLabel("Unknown Error: " + e.getMessage()));
-            errorPanel.setBackground(Color.decode("#a12b2b")); 
-            listpanel.addPanel(errorPanel, 50);
-            e.printStackTrace();
-        }
+        }).start();
     }
 
     private static JPanel createProductBox(listedItem product) {
@@ -43,41 +62,79 @@ public class StoreController {
         box.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 1));
         box.setBackground(Color.WHITE);
 
-        // Icono
+        // --- ICONO CORREGIDO ---
         JLabel iconLabel = new JLabel();
-        iconLabel.setPreferredSize(new Dimension(80, 80));
+        iconLabel.setPreferredSize(new Dimension(84, 84)); // Un poco más grande para margen
+        iconLabel.setHorizontalAlignment(SwingConstants.CENTER); // Centrar imagen si es pequeña
+        
         try {
-            if (product.getIconUrl() != null && !product.getIconUrl().isEmpty()) {
-                URL url = new URL(product.getIconUrl());
+            String urlStr = product.getIconUrl();
+            
+            if (urlStr != null && !urlStr.trim().isEmpty()) {
+                // ✅ FIX: Si la URL empieza por "//", le agregamos "https:"
+                if (urlStr.startsWith("//")) {
+                    urlStr = "https:" + urlStr;
+                }
+                
+                URL url = new URL(urlStr);
                 BufferedImage img = ImageIO.read(url);
-                Image scaledImg = img.getScaledInstance(64, 64, Image.SCALE_SMOOTH);
-                iconLabel.setIcon(new ImageIcon(scaledImg));
+                
+                if (img != null) {
+                    Image scaledImg = img.getScaledInstance(72, 72, Image.SCALE_SMOOTH);
+                    iconLabel.setIcon(new ImageIcon(scaledImg));
+                } else {
+                     iconLabel.setText("📷"); // Emoji si la imagen falla pero URL existe
+                }
+            } else {
+                iconLabel.setText("No Icon");
             }
-        } catch (Exception e) { iconLabel.setText("No Icon"); }
-        box.add(iconLabel, BorderLayout.WEST);
+        } catch (Exception e) {
+            iconLabel.setText("Err"); // Texto de error corto
+        }
+        
+        JPanel iconContainer = new JPanel(new BorderLayout());
+        iconContainer.setBackground(Color.WHITE);
+        iconContainer.add(iconLabel, BorderLayout.NORTH);
+        
+        box.add(iconContainer, BorderLayout.WEST);
 
         // Info
         JPanel infoPanel = new JPanel();
         infoPanel.setLayout(new BoxLayout(infoPanel, BoxLayout.Y_AXIS));
         infoPanel.setBackground(Color.WHITE);
-        
-        JLabel title = new JLabel("<html><b>" + product.getTitle() + "</b></html>");
-        JLabel pub = new JLabel(product.getPublisherName());
-        JLabel desc = new JLabel(product.getDescription());
-        JLabel price = new JLabel("Price: " + product.getDisplayPrice());
-        JLabel installer = new JLabel(product.getInstallerType());
+
+        String descText = product.getDescription();
+
+        // Evitar descripciones demasiado largas
+        if (descText != null && descText.length() > 400) {
+            descText = descText.substring(0, 400) + "...";
+        }
+
+        JLabel title = new JLabel("<html><font size='4'><b>" + product.getTitle() + "</b></font></html>");
+        JLabel pub = new JLabel("<html><b>Dev:</b> " + product.getPublisherName() + "</html>");
+        JLabel price = new JLabel("<html><b>Price:</b> <font color='green'>" + product.getDisplayPrice() + "</font></html>");
+        JLabel desc = new JLabel("<html><body style='width: 250px; font-size: 9px; font-style: italic; color: DimGray;'>"
+                + descText + "</body></html>"); //html sirve para no meter todo en una linea
+        JLabel installer = new JLabel("<html><b>Type:</b> " + product.getInstallerType() + "</html>");
         JLabel packageLabel = new JLabel(product.getMainPackageName().toString());
-        JLabel pid = new JLabel(product.getProductId());
+        JLabel pid = new JLabel("<html><b>PID:</b> <font size='2' color='gray'>" + product.getProductId() + "</font></html>");
 
         String packageLabelClean = packageLabel.getText().replace("[", " ").replace("]", " ");
+        JLabel pkg = new JLabel("<html><b>Pkg:</b> <font size='2' color='gray'>" + packageLabelClean + "</font></html>"); //version a usar
+
+
         
-        infoPanel.add(price);
-        infoPanel.add(title);
+
+        // Agregar al panel
+        infoPanel.add(title);       
         infoPanel.add(pub);
-        infoPanel.add(new JLabel("Installer Type: " + installer.getText()));
-        infoPanel.add(new JLabel("Package: " + packageLabelClean.trim()));
-        infoPanel.add(new JLabel("PID: " + pid.getText()));
-        infoPanel.add(desc);
+        infoPanel.add(price);
+        infoPanel.add(Box.createVerticalStrut(5)); 
+        infoPanel.add(installer);
+        infoPanel.add(pkg);
+        infoPanel.add(pid);
+        infoPanel.add(Box.createVerticalStrut(5)); 
+        infoPanel.add(desc);        
         box.add(infoPanel, BorderLayout.CENTER);
 
         // Botón
@@ -85,7 +142,8 @@ public class StoreController {
         dlBtn.addActionListener(e -> {
             try {
                 Desktop.getDesktop().browse(new URI("https://apps.microsoft.com/detail/" + product.getProductId()));
-            } catch (Exception ex) {}
+            } catch (Exception ex) {
+            }
         });
         box.add(dlBtn, BorderLayout.EAST);
 

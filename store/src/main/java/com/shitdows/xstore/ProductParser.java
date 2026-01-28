@@ -30,7 +30,8 @@ public class ProductParser {
                 JsonObject installer = itemJson.getAsJsonObject("installer");
                 String installerType = installer.get("type").getAsString();
                 item.setInstallerType(installerType); 
-            }
+                }
+                
 
                 //si da error no se copia el item
                 if (item != null && item.getTitle() != null && !item.getTitle().isEmpty()) {

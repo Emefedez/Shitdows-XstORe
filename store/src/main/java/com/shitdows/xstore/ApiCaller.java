@@ -15,7 +15,7 @@ public class ApiCaller {
     public static String ApiSearch (String query) throws IOException { //Esto generará un json que leeremos
     String cleanQuery = query.trim();
     String Base_Url1half = "https://apps.microsoft.com/api/products/search?query=";
-    String Base_Url2half = "&mediaType=all&age=all&price=all&category=all&subscription=all&cursor=&gl=ES&hl=en-ES&exp=1811522136";
+    String Base_Url2half = "&mediaType=all&age=all&price=all&category=all&subscription=all&cursor=&gl=EN&hl=en-ES&exp=1811522136";
 
     if (cleanQuery.endsWith("\n")) {
     cleanQuery = StringUtils.chop(cleanQuery); //Quita el caracter de enter si existe
