@@ -131,8 +131,6 @@ public class Main {
             //open jframe to download the app
             System.out.println("Sending to Searcher: " + searchPackage.getText());
             new Searcher(searchPackage.getText());
-            //new DownloadManager(searchPackage.getText()); pasa esto al final
-            
         });
         
         // Para que funcione al dar Enter en la caja de texto tmb

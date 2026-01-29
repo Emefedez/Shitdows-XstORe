@@ -49,10 +49,5 @@ public class ApiCaller {
         }
     }
 
-    
-    public static void main(String[] args) throws IOException {
-        ApiSearch("chatGPT"); 
-    }
-        
 
 }
