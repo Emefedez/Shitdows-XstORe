@@ -54,12 +54,12 @@ public class Searcher {
 
     public String getStoreFiles() throws Exception {
         String resolvedType = ispackageid ? "ProductId" : "PackageFamilyName";
-        System.out.println("Buscando con tipo: " + resolvedType);
-
-
-        //definimos el formato del cuerpo del request
+        String encoded = URLEncoder.encode(packageName, StandardCharsets.UTF_8);
         String formData = String.format("type=%s&url=%s&ring=%s&lang=%s",
-        resolvedType, URLEncoder.encode(packageName, StandardCharsets.UTF_8),"RP","en-EN");
+                resolvedType, encoded, "RP", "en-EN");
+
+        System.out.println("type=" + resolvedType);
+        System.out.println("url=" + packageName);
 
         //construimos request
         HttpRequest request = HttpRequest.newBuilder()
@@ -74,6 +74,7 @@ public class Searcher {
         HttpResponse<String> response =
                 HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 
+        System.out.println("HTTP " + response.statusCode());
         return response.body();
     }
 }
