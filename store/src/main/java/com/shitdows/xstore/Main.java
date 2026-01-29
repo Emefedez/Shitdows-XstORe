@@ -129,7 +129,8 @@ public class Main {
         // para la barra de paquete
         packageButton.addActionListener(e -> {
             //open jframe to download the app
-            new DownloadManager(searchPackage.getText());
+            new Searcher(searchPackage.getText());
+            //new DownloadManager(searchPackage.getText()); pasa esto al final
             
         });
         
