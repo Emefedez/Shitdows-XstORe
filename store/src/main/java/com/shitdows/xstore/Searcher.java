@@ -88,6 +88,7 @@ public class Searcher {
         }
 
         cleanLinks.append(System.lineSeparator()).append(response.body());
+        cleanLinks.append(System.lineSeparator()).append("*******************"); //cuando detecto estos asteriscos, se acaba el listado
         System.out.println("HTTP " + response.statusCode());
         return cleanLinks.toString();
     }
