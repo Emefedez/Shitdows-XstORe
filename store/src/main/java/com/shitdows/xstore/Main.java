@@ -20,8 +20,9 @@ public class Main {
         try {
             ImageIcon icono = new ImageIcon("icon.png");
             frame.setIconImage(icono.getImage());
+            System.out.println("Icon loaded");
         } catch (Exception e) {
-            System.err.println("No se pudo cargar el icono");
+            System.err.println("Icon missing: " + e.getMessage());
         }
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.getContentPane().setBackground(Color.decode("#00b0b9"));
@@ -124,6 +125,16 @@ public class Main {
         
         // Para que funcione al dar Enter en la caja de texto tmb
         searchField.addActionListener(e -> searchButton.doClick());
+
+        // para la barra de paquete
+        packageButton.addActionListener(e -> {
+            //open jframe to download the app
+            new DownloadManager(searchPackage.getText());
+            
+        });
+        
+        // Para que funcione al dar Enter en la caja de texto tmb
+        searchPackage.addActionListener(e -> packageButton.doClick());
 
 
         // Configuración del JFrame
