@@ -2,6 +2,7 @@ package com.shitdows.xstore;
 
 
 import java.awt.Color;
+import java.awt.Dimension;
 import javax.swing.*;
 
 public class Main {
@@ -12,7 +13,7 @@ public class Main {
 
         public static void main(String[] args) {
             
-        frame = new JFrame("Shitdows-XstORe"); // Creando instancia de JFrame
+        frame = new JFrame("Shitdows-XstORe by Emefedez"); // Creando instancia de JFrame
         StoreController.setMainWindow(frame);
 
         frame.setResizable(false);
@@ -128,9 +129,34 @@ public class Main {
 
         // para la barra de paquete
         packageButton.addActionListener(e -> {
-            //open jframe to download the app
-            System.out.println("Sending to Searcher: " + searchPackage.getText());
-            new Searcher(searchPackage.getText());
+            
+            JPanel loadPanel = new JPanel();
+            loadPanel.add(new JLabel("Loading, Please wait..."));
+            loadPanel.setBackground(Color.decode("#39be46"));
+            loadPanel.setOpaque(true);
+            loadPanel.setPreferredSize(new Dimension(540, 50));
+
+            // definir posicion concreta del panel, si no ocupa toda la lista
+            listPanel.add(loadPanel, 0);
+            listPanel.revalidate();
+            listPanel.repaint();
+
+            // Ejecuta la tarea en background y, al terminar, quita el loading
+            new SwingWorker<Void, Void>() {
+                @Override
+                protected Void doInBackground() {
+                    System.out.println("Sending to Searcher: " + searchPackage.getText());
+                    new Searcher(searchPackage.getText());
+                    return null;
+                }
+
+                @Override
+                protected void done() {
+                    listPanel.remove(loadPanel);
+                    listPanel.revalidate();
+                    listPanel.repaint();
+                }
+            }.execute();
         });
         
         // Para que funcione al dar Enter en la caja de texto tmb
