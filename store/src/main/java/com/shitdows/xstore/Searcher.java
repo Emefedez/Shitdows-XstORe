@@ -5,14 +5,15 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.File;
+import java.io.FileWriter;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.net.URI;
-import java.net.http.HttpClient;
-import java.net.http.HttpRequest;
-import java.net.http.HttpResponse;
+import java.net.URLEncoder;
 import java.util.ArrayList;
 import java.util.List;
+import java.net.http.*;
+import java.nio.charset.StandardCharsets;
 
 public class Searcher {
     private boolean ispackageid = true; // Variable de instancia
@@ -32,14 +33,15 @@ public class Searcher {
             }
         }
         boolchecker(packageName);
-
-        if (ispackageid==true) { //funcion para paquete
-
+        try (PrintWriter writer = new PrintWriter(new FileWriter("downloadLinks.txt"))) {
+            writer.println(this.getStoreFiles());
+            
+        } catch (Exception e) {
+            System.out.println("Error getting store files: " + e.getMessage());
+            e.printStackTrace();
         }
 
-        else { //funcion para nombre de familia
-             
-        }
+        
     }
 
     // Primero detectamos si es packageID o packageName
@@ -48,5 +50,30 @@ public class Searcher {
             this.ispackageid = false; // no es un paquete
         }
         System.out.println("Is package ID: " + this.ispackageid);
+    }
+
+    public String getStoreFiles() throws Exception {
+        String resolvedType = ispackageid ? "ProductId" : "PackageFamilyName";
+        System.out.println("Buscando con tipo: " + resolvedType);
+
+
+        //definimos el formato del cuerpo del request
+        String formData = String.format("type=%s&url=%s&ring=%s&lang=%s",
+        resolvedType, URLEncoder.encode(packageName, StandardCharsets.UTF_8),"RP","en-EN");
+
+        //construimos request
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create("https://store.rg-adguard.net/api/GetFiles"))
+                .header("Content-Type", "application/x-www-form-urlencoded")
+                .header("Origin", "https://store.rg-adguard.net")
+                .header("Referer", "https://store.rg-adguard.net/")
+                .POST(HttpRequest.BodyPublishers.ofString(formData))
+                .build();
+
+        //mandamos request y obtenemos respuesta
+        HttpResponse<String> response =
+                HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+
+        return response.body();
     }
 }
