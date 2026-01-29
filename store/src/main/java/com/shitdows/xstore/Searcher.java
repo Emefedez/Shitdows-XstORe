@@ -77,6 +77,7 @@ public class Searcher {
         StringBuilder cleanLinks = new StringBuilder();
         Document parsedDoc = Jsoup.parse(response.body());
         Elements links = parsedDoc.select("table.tftable a[href]");
+        
 
         for (Element a : links) {
             String href = a.attr("href").trim();
@@ -86,9 +87,6 @@ public class Searcher {
             cleanLinks.append(href).append(System.lineSeparator());
             cleanLinks.append(title).append(System.lineSeparator());
         }
-
-        cleanLinks.append(System.lineSeparator()).append(response.body());
-        cleanLinks.append(System.lineSeparator()).append("*******************"); //cuando detecto estos asteriscos, se acaba el listado
         System.out.println("HTTP " + response.statusCode());
         return cleanLinks.toString();
     }
