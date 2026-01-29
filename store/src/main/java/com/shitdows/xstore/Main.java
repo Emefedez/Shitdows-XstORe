@@ -69,6 +69,7 @@ public class Main {
         JScrollPane scrollPane = new JScrollPane(listPanel);
         scrollPane.setBounds(10, 70, 570, 530); // Posición y tamaño
         scrollPane.setVerticalScrollBarPolicy(JScrollPane.VERTICAL_SCROLLBAR_ALWAYS);
+        scrollPane.setHorizontalScrollBarPolicy(ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
         scrollPane.getVerticalScrollBar().setBackground(Color.GRAY);
         scrollPane.getVerticalScrollBar().setUnitIncrement(16);
         

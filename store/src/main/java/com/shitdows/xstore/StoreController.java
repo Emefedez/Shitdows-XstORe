@@ -33,7 +33,7 @@ public class StoreController {
                         JPanel productBox = createProductBox(products[i], i); // por cada caja creamos una caja y
                                                                               // decimos en que linea esta la url de
                                                                               // este programa
-                        listpanel.addPanel(productBox, 160);
+                        listpanel.addPanel(productBox, 75);
                     }
 
                     listpanel.revalidate();
@@ -60,13 +60,16 @@ public class StoreController {
         box.setBackground(Color.WHITE);
 
         // Imagen
-        JLabel iconLabel = new JLabel("...");
+        JLabel iconLabel = new JLabel("...");  //mientras carga
         iconLabel.setPreferredSize(new Dimension(72, 72));
         iconLabel.setHorizontalAlignment(SwingConstants.CENTER);
-        iconLabel.setForeground(Color.GRAY);
+        iconLabel.setBorder(BorderFactory.createEmptyBorder(0, 15, 0, 0)); // Mueve 10px a la izquierda
 
-        // Botón
-        JButton idButton = new JButton("Pass ID to Downloader");
+
+        
+        // Botones pequeños
+        JButton idButton = new JButton("Pass ID");
+        idButton.setMaximumSize(new Dimension(100, 30));
         idButton.addActionListener(e -> {
             try {      
                 Main.setPackageText(product.getProductId());
@@ -74,7 +77,8 @@ public class StoreController {
             }
         });
 
-        JButton pnButton = new JButton("Pass Package name to Downloader");
+        JButton pnButton = new JButton("Pass Name");
+        pnButton.setMaximumSize(new Dimension(100, 30));
         pnButton.addActionListener(e -> {
             try {
                 Main.setPackageText(product.getMainPackageName().toString().replace("[", " ").replace("]", " ").replace("{", " ")
@@ -83,12 +87,16 @@ public class StoreController {
             }
         });
 
-        // Panel izquierdo (icono + botón) -> SOLO un WEST
-        JPanel leftPanel = new JPanel(new BorderLayout());
+        // Panel izquierdo con BoxLayout vertical
+        JPanel leftPanel = new JPanel();
+        leftPanel.setLayout(new BoxLayout(leftPanel, BoxLayout.Y_AXIS));
         leftPanel.setBackground(Color.WHITE);
-        leftPanel.add(iconLabel, BorderLayout.NORTH);
-        leftPanel.add(idButton, BorderLayout.CENTER);
-        leftPanel.add(pnButton, BorderLayout.SOUTH);
+        leftPanel.add(iconLabel);
+        leftPanel.add(Box.createVerticalStrut(5));
+        leftPanel.add(idButton);
+        leftPanel.add(Box.createVerticalStrut(3));
+        leftPanel.add(pnButton);
+        //leftPanel.add(Box.createVerticalGlue()); // Rellena el resto si quieres, no me gusta pero me sirvio para probar asi que lo dejo
         box.add(leftPanel, BorderLayout.WEST);
 
         // Cargar imagen en hilo separado
@@ -109,7 +117,7 @@ public class StoreController {
             }
         }).start();
 
-        // Info (deja tu código tal cual)
+        // Info
         JPanel infoPanel = new JPanel();
         infoPanel.setLayout(new BoxLayout(infoPanel, BoxLayout.Y_AXIS));
         infoPanel.setBorder(BorderFactory.createEmptyBorder(0, 6, 0, 0));
@@ -125,7 +133,7 @@ public class StoreController {
         JLabel price = new JLabel(
                 "<html><b>Price:</b> <font color='green'>" + product.getDisplayPrice() + "</font></html>");
         JLabel desc = new JLabel(
-                "<html><body style='width: 250px; font-size: 9px; font-style: italic; color: DimGray;'>"
+                "<html><body style='width: 280px; font-size: 9px; font-style: italic; color: DimGray;'>"
                         + descText + "</body></html>");
         JLabel installer = new JLabel("<html><b>Type:</b> " + product.getInstallerType() + "</html>");
         JLabel packageLabel = new JLabel(product.getMainPackageName().toString());
@@ -147,7 +155,13 @@ public class StoreController {
         infoPanel.add(pid);
         infoPanel.add(Box.createVerticalStrut(5));
         infoPanel.add(desc);
-        box.add(infoPanel, BorderLayout.EAST);
+        box.add(infoPanel, BorderLayout.CENTER);
+
+        // Usamos un tamaño fijo para reforzar la declaracion original para las cajas
+        final int ROW_HEIGHT = 200; 
+        box.setMinimumSize(new Dimension(0, ROW_HEIGHT));
+        box.setPreferredSize(new Dimension(0, ROW_HEIGHT));
+        box.setMaximumSize(new Dimension(Integer.MAX_VALUE, ROW_HEIGHT));
 
         return box;
     }
