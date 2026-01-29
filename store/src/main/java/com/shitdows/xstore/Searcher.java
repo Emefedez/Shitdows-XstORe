@@ -74,7 +74,21 @@ public class Searcher {
         HttpResponse<String> response =
                 HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
 
+        StringBuilder cleanLinks = new StringBuilder();
+        Document parsedDoc = Jsoup.parse(response.body());
+        Elements links = parsedDoc.select("table.tftable a[href]");
+
+        for (Element a : links) {
+            String href = a.attr("href").trim();
+            String title = a.text().trim();
+            if (href.isEmpty() || title.isEmpty()) continue;
+
+            cleanLinks.append(href).append(System.lineSeparator());
+            cleanLinks.append(title).append(System.lineSeparator());
+        }
+
+        cleanLinks.append(System.lineSeparator()).append(response.body());
         System.out.println("HTTP " + response.statusCode());
-        return response.body();
+        return cleanLinks.toString();
     }
 }
