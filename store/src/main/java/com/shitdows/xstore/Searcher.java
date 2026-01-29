@@ -20,8 +20,8 @@ public class Searcher {
     private String packageName; // Variable de instancia
 
     public Searcher(String packageName) { // constructor
-        this.packageName = packageName;
-        searcher(packageName);
+        this.packageName = packageName.trim();
+        searcher(this.packageName);
     }
 
     public void searcher(String packageName) {
