@@ -12,7 +12,7 @@ public class Main {
 
         public static void main(String[] args) {
             
-        frame = new JFrame("Shitdows-StXOR"); // Creando instancia de JFrame
+        frame = new JFrame("Shitdows-XstORe"); // Creando instancia de JFrame
         StoreController.setMainWindow(frame);
 
         frame.setResizable(false);
