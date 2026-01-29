@@ -7,9 +7,14 @@ import javax.swing.*;
 public class Main {
         private static ListPanel listPanel;
         private static JFrame frame;
+        private static JTextField searchPackage;
+        
 
         public static void main(String[] args) {
-        frame = new JFrame("ShitdowsXstORe"); // Creando instancia de JFrame
+            
+        frame = new JFrame("Shitdows-StXOR"); // Creando instancia de JFrame
+        StoreController.setMainWindow(frame);
+
         frame.setResizable(false);
         //Definiendo icono para el programa
         try {
@@ -25,7 +30,7 @@ public class Main {
         JButton packageButton = new JButton(); // Creando un botón
 
         JTextField searchField = new JTextField(); // Creando un campo de búsqueda
-        JTextField searchPackage = new JTextField();
+        searchPackage = new JTextField();
 
         //Botón de busqueda
         searchButton.setBounds(130, 100, 100, 40);
@@ -124,5 +129,12 @@ public class Main {
         frame.setSize(600, 650);
         frame.setLayout(null);
         frame.setVisible(true);
+    }
+
+    public static void setPackageText(String text) {
+        if (searchPackage == null) {
+            return;
+        }
+        SwingUtilities.invokeLater(() -> searchPackage.setText(text));
     }
 }

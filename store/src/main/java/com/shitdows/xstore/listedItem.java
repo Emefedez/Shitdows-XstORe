@@ -9,7 +9,7 @@ public class listedItem {
     private String title;
     private String publisherName;
     private String description;
-    private String iconURL;
+    private String iconUrl;
     private String displayPrice;
     private double averageRating;
 
@@ -27,6 +27,9 @@ public class listedItem {
     this.installerType = type;
     }
 
+    public void setIconUrl(String iconUrl) {
+        this.iconUrl = iconUrl;
+    }
 
 
 
@@ -34,7 +37,7 @@ public class listedItem {
     public String getTitle() { return title; }
     public String getPublisherName() { return publisherName; }
     public String getDescription() { return description; }
-    public String getIconUrl() { return iconURL; }
+    public String getIconUrl() { return iconUrl; }
     public String getDisplayPrice() { return displayPrice; }
     public double getAverageRating() { return averageRating; }
     public String getProductId() { return productId; }
