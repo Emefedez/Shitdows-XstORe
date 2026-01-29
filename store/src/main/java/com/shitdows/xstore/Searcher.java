@@ -27,7 +27,7 @@ public class Searcher {
     public void searcher(String packageName) {
         File downloadLinks = new File("downloadLinks.txt");
         if (downloadLinks.exists()) {
-            System.out.println("Url file already existed, deleting it...");
+            System.out.println("downloadLinks.txt file already existed, deleting it...");
             if (!downloadLinks.delete()) {
                 try { new PrintWriter(downloadLinks).close(); } catch (IOException e) {}
             }
@@ -56,7 +56,7 @@ public class Searcher {
         String resolvedType = ispackageid ? "ProductId" : "PackageFamilyName";
         String encoded = URLEncoder.encode(packageName, StandardCharsets.UTF_8);
         String formData = String.format("type=%s&url=%s&ring=%s&lang=%s",
-                resolvedType, encoded, "RP", "en-EN");
+                resolvedType, encoded, "Retail", "es-ES");
 
         System.out.println("type=" + resolvedType);
         System.out.println("url=" + packageName);

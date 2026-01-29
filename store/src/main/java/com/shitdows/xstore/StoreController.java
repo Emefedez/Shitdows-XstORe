@@ -70,7 +70,7 @@ public class StoreController {
         // Botones pequeños
         JButton idButton = new JButton("Pass ID");
         idButton.setMaximumSize(new Dimension(100, 30));
-        idButton.setBorder(BorderFactory.createEmptyBorder(0, 5, 0, 0));
+        //idButton.setBorder(BorderFactory.createEmptyBorder(0, 5, 0, 0));
         idButton.addActionListener(e -> {
             try {      
                 Main.setPackageText(product.getProductId());
@@ -80,7 +80,7 @@ public class StoreController {
 
         JButton pnButton = new JButton("Pass Name");
         pnButton.setMaximumSize(new Dimension(100, 30));
-        pnButton.setBorder(BorderFactory.createEmptyBorder(0, 5, 0, 0));
+        //pnButton.setBorder(BorderFactory.createEmptyBorder(0, 5, 0, 0));
         pnButton.addActionListener(e -> {
             try {
                 Main.setPackageText(product.getMainPackageName().toString().replace("[", " ").replace("]", " ").replace("{", " ")
@@ -109,7 +109,7 @@ public class StoreController {
                     loadImage(imageUrl, iconLabel);
                 } else {
                     SwingUtilities.invokeLater(() -> {
-                        iconLabel.setText("  No Icon");
+                        iconLabel.setText(" No Icon");
                         iconLabel.setIcon(null);
                     });
                 }
