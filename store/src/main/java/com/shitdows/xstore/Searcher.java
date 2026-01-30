@@ -25,7 +25,7 @@ public class Searcher {
     }
 
     public void searcher(String packageName) {
-        File downloadLinks = new File("downloadLinks.txt");
+        File downloadLinks = new File("UnneededDownloadLinks.txt");
         if (downloadLinks.exists()) {
             System.out.println("downloadLinks.txt file already existed, deleting it...");
             if (!downloadLinks.delete()) {
@@ -33,8 +33,8 @@ public class Searcher {
             }
         }
         boolchecker(packageName);
-        try (PrintWriter writer = new PrintWriter(new FileWriter("downloadLinks.txt"))) {
-            writer.println(this.getStoreFiles());
+        try (PrintWriter writer = new PrintWriter(new FileWriter("UnneededDownloadLinks.txt"))) {
+            //writer.println(this.getStoreFiles());
             
         } catch (Exception e) {
             System.out.println("Error getting store files: " + e.getMessage());
