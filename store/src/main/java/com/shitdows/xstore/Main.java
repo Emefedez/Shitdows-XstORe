@@ -141,7 +141,7 @@ public class Main {
             listPanel.revalidate();
             listPanel.repaint();
 
-            // Ejecuta la tarea en background y, al terminar, quita el loading
+            // Ejecuta la tarea en background para poder poner bloque de carga
             new SwingWorker<Void, Void>() {
                 @Override
                 protected Void doInBackground() {
@@ -155,6 +155,7 @@ public class Main {
                     listPanel.remove(loadPanel);
                     listPanel.revalidate();
                     listPanel.repaint();
+                    new DownloadManager(searchPackage.getText());
                 }
             }.execute();
         });
