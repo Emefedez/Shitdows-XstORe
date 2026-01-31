@@ -2,7 +2,6 @@ package com.shitdows.xstore;
 
 import javax.swing.*;
 import java.awt.*;
-import java.net.URI;
 import java.net.URL;
 import java.awt.image.BufferedImage;
 import java.io.BufferedReader;
