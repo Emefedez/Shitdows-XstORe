@@ -24,12 +24,14 @@ public class ProgramParser {
                     String link = lines.get(i);
                     String title = lines.get(i + 1);
 
-                    byte architecture = 0; // 1 = x64 por defecto, listado en listedProgram
-                    if (title.contains("x86")) {
-                        architecture = 0;
-                    }
-                    else if (title.contains("arm")) {
+                    byte architecture = 0; // 0 = x64 (default), 1 = x86, 2 = arm
+                    String lowerTitle = title.toLowerCase();
+                    if (lowerTitle.contains("arm")) {
                         architecture = 2;
+                    } else if (lowerTitle.contains("x86")) {
+                        architecture = 1;
+                    } else {
+                        architecture = 0;
                     }
 
                     String extension = "";

@@ -34,6 +34,7 @@ public class DownloadManager extends javax.swing.JFrame {
         jCheckBox2.addActionListener(updater); // msix
         jCheckBox3.addActionListener(updater); // msixbundle
         jCheckBox4.addActionListener(updater); // appx
+        // jCheckBox5 and jCheckBox6 usually have auto-generated listeners in initComponents
         jCheckBox7.addActionListener(updater); // arm
     }
     
@@ -53,9 +54,11 @@ public class DownloadManager extends javax.swing.JFrame {
                 if (showAllArchs) {
                     archMatch = true;
                 } else {
-                    if (prog.getArch() == 0 && jCheckBox5.isSelected()) archMatch = true; // x64
-                    if (prog.getArch() == 1 && jCheckBox6.isSelected()) archMatch = true; // x86
-                    if (prog.getArch() == 2 && jCheckBox7.isSelected()) archMatch = true; // arm
+                    int a = prog.getArch();
+                    // 0 = x64, 1 = x86, 2 = arm
+                    if (a == 0 && jCheckBox5.isSelected()) archMatch = true; // x64
+                    if (a == 1 && jCheckBox6.isSelected()) archMatch = true; // x86
+                    if (a == 2 && jCheckBox7.isSelected()) archMatch = true; // arm
                 }
 
                 // Filtro Extensión
