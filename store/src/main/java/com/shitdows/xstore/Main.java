@@ -155,6 +155,7 @@ public class Main {
                     listPanel.remove(loadPanel);
                     listPanel.revalidate();
                     listPanel.repaint();
+                    new ProgramParser();
                     new DownloadManager(searchPackage.getText());
                 }
             }.execute();

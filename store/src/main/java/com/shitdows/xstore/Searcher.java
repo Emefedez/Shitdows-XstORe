@@ -54,7 +54,7 @@ public class Searcher {
 
     public String getStoreFiles() throws Exception {
         String resolvedType = ispackageid ? "ProductId" : "PackageFamilyName";
-        String encoded = URLEncoder.encode(packageName, StandardCharsets.UTF_8);
+        String encoded = URLEncoder.encode(packageName.trim(), StandardCharsets.UTF_8);
         String formData = String.format("type=%s&url=%s&ring=%s&lang=%s",
                 resolvedType, encoded, "Retail", "es-ES");
 
