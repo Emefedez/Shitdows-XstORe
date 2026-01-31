@@ -25,13 +25,21 @@ public class StoreController {
                 String json = ApiCaller.ApiSearch(query);
                 listedItem[] products = ProductParser.jsonParser(json);
 
+                // --- FIX: Leer URLs en memoria inmediatamente para asegurar sincronización ---
+                java.util.List<String> urlList = new java.util.ArrayList<>();
+                try (BufferedReader br = new BufferedReader(new FileReader("urls.txt"))) {
+                    String line;
+                    while ((line = br.readLine()) != null) urlList.add(line);
+                } catch (Exception e) { System.err.println("Error reading urls cache: " + e.getMessage()); }
+                // --------------------------------------------------------------------------
+
                 SwingUtilities.invokeLater(() -> {
                     listpanel.removePanel(loadPanel);
 
                     for (int i = 0; i < products.length; i++) {
-                        JPanel productBox = createProductBox(products[i], i); // por cada caja creamos una caja y
-                                                                              // decimos en que linea esta la url de
-                                                                              // este programa
+                        // Pasamos directamente la URL correspondiente, si existe
+                        String imgUrl = (i < urlList.size()) ? urlList.get(i) : null;
+                        JPanel productBox = createProductBox(products[i], imgUrl); 
                         listpanel.addPanel(productBox, 75);
                     }
 
@@ -52,7 +60,8 @@ public class StoreController {
         }).start();
     }
 
-    private static JPanel createProductBox(listedItem product, int lineNumber) {
+    // CAMBIO: Recibimos String imageUrl en vez de int lineNumber
+    private static JPanel createProductBox(listedItem product, String imageUrl) {
         JPanel box = new JPanel();
         box.setLayout(new BorderLayout(10, 10));
         box.setBorder(BorderFactory.createLineBorder(Color.LIGHT_GRAY, 1));
@@ -103,7 +112,6 @@ public class StoreController {
         // Cargar imagen en hilo separado
         new Thread(() -> {
             try {
-                String imageUrl = getLineFromFile("urls.txt", lineNumber);
                 if (imageUrl != null && !imageUrl.trim().isEmpty()) {
                     loadImage(imageUrl, iconLabel);
                 } else {
@@ -165,23 +173,6 @@ public class StoreController {
         box.setMaximumSize(new Dimension(Integer.MAX_VALUE, ROW_HEIGHT));
 
         return box;
-    }
-
-    // Lee una línea específica del archivo
-    private static String getLineFromFile(String filePath, int lineNumber) {
-        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
-            String line;
-            int currentLine = 0;
-            while ((line = reader.readLine()) != null) {
-                if (currentLine == lineNumber) {
-                    return line.trim();
-                }
-                currentLine++;
-            }
-        } catch (Exception e) {
-            System.err.println("Error reading line " + lineNumber + ": " + e.getMessage());
-        }
-        return null;
     }
 
     private static void loadImage(String urlStr, JLabel iconLabel) {
