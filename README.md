@@ -12,7 +12,8 @@ This works by constructing an URL just like Microsoft does for their store and p
 You can always just get the ID through the app and paste it on the site, a workflow which some may prefer. I am open to criticism on the work and scructure. Feel free to roast me if you want to!
 
 
-There is a prebuilt binary compatible with 64 and 32 bit windows in releases. 
+There is a prebuilt binary compatible with 64 and 32 bit windows in releases.
+(Beware there is a small typo as .BlockMap is written like .blockMap ; I'll probably fix it but I don't have my windows setup configured properly right now so testing it would wait. As such, I just changed the code to fix it and I'll package it again Soon™️)
 
 
 https://github.com/user-attachments/assets/38f68be9-c1df-415c-b28b-d94ebcd1bf62
