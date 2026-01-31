@@ -12,6 +12,9 @@ This works by constructing an URL just like Microsoft does for their store and p
 You can always just get the ID through the app and paste it on the site, a workflow which some may prefer. I am open to criticism on the work and scructure. Feel free to roast me if you want to!
 
 
+There is a prebuilt binary compatible with 64 and 32 bit windows in releases. 
+
+
 
 
 
