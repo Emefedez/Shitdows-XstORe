@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b4dae572-b5d0-4f63-9cfc-8bf01cc2aede" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../downloadLinks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../downloadLinks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lastList.json" beforeDir="false" afterPath="$PROJECT_DIR$/../lastList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/downloadLinks.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/downloadLinks.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/lastList.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/lastList.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/urls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../urls.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,11 +20,12 @@
   </component>
   <component name="CopilotPersistence">
     <persistenceIdMap>
+      <entry key="_/Users/m1-max/Documents/ShitStore/Shitdows-XstORe/store" value="38x8Q7eRLTx2frGPWmT31qtd8cr" />
       <entry key="_/Users/m1-max/SimpleUWPStore/FinalSimple_UWP/store" value="38uPqKuEnRLWBJz083HZnSlgVLS" />
     </persistenceIdMap>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="24" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -35,9 +42,9 @@
     <commands />
     <urls />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="38uPqKuEnRLWBJz083HZnSlgVLS" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -45,16 +52,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.Main.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager.WIDTH": "110",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/m1-max/SimpleUWPStore/FinalSimple_UWP/store/pom.xml",
+    "last_opened_file_path": "/Users/m1-max/Documents/ShitStore/Shitdows-XstORe/store/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1769646671324</updated>
       <workItem from="1769646672335" duration="370000" />
+      <workItem from="1769729842295" duration="2022000" />
+      <workItem from="1769895491966" duration="10000" />
     </task>
     <servers />
   </component>
