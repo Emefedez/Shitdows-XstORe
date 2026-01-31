@@ -155,8 +155,15 @@ public class Main {
                     listPanel.remove(loadPanel);
                     listPanel.revalidate();
                     listPanel.repaint();
-                    new ProgramParser();
-                    new DownloadManager(searchPackage.getText());
+
+                    try { //como ProgramParser tiene excepciones si erra, se necesita agregar un catch
+                        listedProgram[] programs = ProgramParser.txtParser();
+                        new DownloadManager(programs);
+                        
+                    } catch (Exception e) {
+                        e.printStackTrace();
+                        JOptionPane.showMessageDialog(frame, "Error processing download links: " + e.getMessage());
+                    }
                 }
             }.execute();
         });

@@ -22,11 +22,10 @@ public class DownloadManager extends javax.swing.JFrame {
     /**
      * Creates new form DownloadManager
      */
-    public DownloadManager(String packageName) {
+    public DownloadManager(listedProgram[] programs) {
         initComponents();
-        if (packageName != null && !packageName.isBlank()) {
-            setTitle("Shit Download Manager");
-        }
+        
+        setTitle("Shit Download Manager");
         setVisible(true);
         try {
             ImageIcon icono = new ImageIcon("icon.png");
