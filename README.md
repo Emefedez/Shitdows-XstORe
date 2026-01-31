@@ -15,11 +15,9 @@ You can always just get the ID through the app and paste it on the site, a workf
 There is a prebuilt binary compatible with 64 and 32 bit windows in releases. 
 
 
-
-
-
-
-
 https://github.com/user-attachments/assets/38f68be9-c1df-415c-b28b-d94ebcd1bf62
+
+https://github.com/user-attachments/assets/55affdbb-82dd-4950-9768-f32acab28fe1
+
 
 
